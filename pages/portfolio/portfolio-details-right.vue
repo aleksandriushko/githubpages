@@ -13,13 +13,13 @@
                     <div class="col-lg-8">
                         <div class="portfolio-right portfolio-details-gallery text-left">
                             <div class="portfolio-image mb--50">
-                                <img src="/img/portfolio/big-image/gallery-4.jpg" alt="portfolio">
+                                <img :src="$router.options.base+'img/portfolio/big-image/gallery-4.jpg'" alt="portfolio">
                             </div>
                             <div class="portfolio-image mb--50">
-                                <img src="/img/portfolio/big-image/gallery-5.jpg" alt="portfolio">
+                                <img :src="$router.options.base+'img/portfolio/big-image/gallery-5.jpg'" alt="portfolio">
                             </div>
                             <div class="portfolio-image">
-                                <img src="/img/portfolio/big-image/gallery-6.jpg" alt="portfolio">
+                                <img :src="$router.options.base+'img/portfolio/big-image/gallery-6.jpg'" alt="portfolio">
                             </div>
                         </div>
                     </div>

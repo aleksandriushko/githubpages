@@ -15,7 +15,7 @@
                 <div class="row align-items-lg-end align-items-center">
                     <div class="col-lg-4 col-md-6">
                         <div class="service-thumbnail space_dec--110 space_dec--none wow move-up">
-                            <img class="w-100" src="/img/about/home-service-image-02.jpg" alt="Multipurpose">
+                            <img class="w-100" :src="$router.options.base+'img/about/home-service-image-02.jpg'" alt="Multipurpose">
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-1 col-md-6 mt_sm--40">
@@ -55,7 +55,7 @@
                             <!-- Start Single Image -->
                             <div class="flexale-image">
                                 <div class="thumb">
-                                    <img src="/img/flexable-image-slide/flexable-3/flexable-3.jpg" alt="image">
+                                    <img :src="$router.options.base+'img/flexable-image-slide/flexable-3/flexable-3.jpg'" alt="image">
                                 </div>
                             </div>
                             <!-- End Single Image -->
@@ -72,7 +72,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="progress-thumbnail wow move-up text-lg-left text-center">
-                            <img src="/img/about/home-service-image-01.jpg" alt="Multipurpose">
+                            <img :src="$router.options.base+'img/about/home-service-image-01.jpg'" alt="Multipurpose">
                         </div>
                     </div>
                     <div class="col-lg-7 offset-lg-1 mt_md--40 mt_sm--40 plr_md--50 plr_sm--50">

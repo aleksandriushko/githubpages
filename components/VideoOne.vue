@@ -5,7 +5,7 @@
                 <div class="col-lg-7">
                     <div class="video-with-thumb text-center">
                         <div class="thumb">
-                            <img src="/img/about/macbook-01.png" alt="video images">
+                            <img :src="$router.options.base+'img/about/macbook-01.png'" alt="video images">
                         </div>
                         <silent-box :image="videos[0]">
                             <template v-slot:silentbox-item>

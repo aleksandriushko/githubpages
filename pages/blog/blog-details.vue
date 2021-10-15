@@ -25,7 +25,7 @@
                                 </div>
                                 <!-- Start Thumbnail -->
                                 <div class="thumbnail mb--60">
-                                    <img class="w-100" src="/img/blog/big-img/standard-post.jpg" alt="Blog Image 01">
+                                    <img class="w-100" :src="$router.options.base+'img/blog/big-img/standard-post.jpg'" alt="Blog Image 01">
                                 </div>
                                 <!-- Start Content -->
                                 <div class="content basic-dark2-line-1px pb--50 mb--35">
@@ -36,7 +36,7 @@
                                         </div>
                                     </div>
                                     <div class="thumbnail">
-                                        <img class="w-100" src="/img/blog/big-img/standard-post-2.jpg" alt="Blog Image 02">
+                                        <img class="w-100" :src="$router.options.base+'img/blog/big-img/standard-post-2.jpg'" alt="Blog Image 02">
                                     </div>
                                     <div class="desc mt--45">
                                         <p class="bk_pra wow move-up">Why do businesses still depend on internal teams or service providers, ie agencies and freelancers, to build websites for them? Can’t these feature-rich self-serve platforms provide powerful, easy-to-use tools businesses need to build a site themselves, without needing to depend on “the web guy?” Shouldn’t building a website be as easy as setting up a Facebook.</p>
@@ -104,7 +104,7 @@
                                         <!-- Start Single Comment -->
                                         <div class="comment wow move-up">
                                             <div class="thumb">
-                                                <img src="/img/blog/client/client-1.jpg" alt="Multipurpose">
+                                                <img :src="$router.options.base+'img/blog/client/client-1.jpg'" alt="Multipurpose">
                                             </div>
                                             <div class="content">
                                                 <h6 class="heading heading-h6">SCOTT JAMES</h6>
@@ -124,7 +124,7 @@
                                         <!-- Start Single Comment -->
                                         <div class="comment comment-reply wow move-up">
                                             <div class="thumb">
-                                                <img src="/img/blog/client/client-2.jpg" alt="Multipurpose">
+                                                <img :src="$router.options.base+'img/blog/client/client-2.jpg'" alt="Multipurpose">
                                             </div>
                                             <div class="content">
                                                 <h6 class="heading heading-h6">OWEN CHRIST</h6>
@@ -144,7 +144,7 @@
                                         <!-- Start Single Comment -->
                                         <div class="comment wow move-up">
                                             <div class="thumb">
-                                                <img src="/img/blog/client/client-3.jpg" alt="Multipurpose">
+                                                <img :src="$router.options.base+'img/blog/client/client-3.jpg'" alt="Multipurpose">
                                             </div>
                                             <div class="content">
                                                 <h6 class="heading heading-h6">EDNA WATSON</h6>

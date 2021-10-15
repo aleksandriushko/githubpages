@@ -18,7 +18,7 @@
                             </silent-box>
                         </client-only>
                         <h1 class="hero-title">Digital <span>Studio</span></h1>
-                        <img src="/img/slider/creative-agency-wave.png" alt="wave icon">
+                        <img :src="$router.options.base+'img/slider/creative-agency-wave.png'" alt="wave icon">
                         <h6>Introducing the best practices, stories, and insights from the world’s top design leaders.</h6>
                     </div>
                 </div>

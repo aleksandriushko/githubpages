@@ -3,7 +3,7 @@
         <div class="row row--0 bg_color--14 align-items-center video-with-thumb">
             <div class="col-lg-6">
                 <div class="service-thumb authenthic-service">
-                    <img src="/img/about/home-authentic-studio-image-02.jpg" alt="service image">
+                    <img :src="$router.options.base+'img/about/home-authentic-studio-image-02.jpg'" alt="service image">
                 </div>
             </div>
             <div class="col-lg-6 ptb-md--80 ptb-sm--80">

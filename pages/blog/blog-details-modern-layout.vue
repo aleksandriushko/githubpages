@@ -37,7 +37,7 @@
                     <div class="col-lg-12">
                         <div class="blog-modern-layout">
                             <div class="thumbnail mb--60">
-                                <img class="w-100" src="/img/blog/big-img/modern-layout.jpg" alt="Multipurpose">
+                                <img class="w-100" :src="$router.options.base+'img/blog/big-img/modern-layout.jpg'" alt="Multipurpose">
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                                         </div>
                                     </div>
                                     <div class="thumbnail wow move-up">
-                                        <img class="w-100" src="/img/blog/big-img/standard-post-2.jpg" alt="Multipurpose">
+                                        <img class="w-100" :src="$router.options.base+'img/blog/big-img/standard-post-2.jpg'" alt="Multipurpose">
                                     </div>
                                     <div class="desc mt--45">
                                         <p class="bk_pra wow move-up">Initially, the main thing we view as the most worthy motivating force inspiring us to work hard is money. Making money is a noble and necessary motivation which directs us into our careers and motivates us to stay in them. Money is a tool we all need for survival, but earning money also provides us with feelings of status, success and achievement.</p>
@@ -134,7 +134,7 @@
                                     <!-- Start Single Comment -->
                                     <div class="comment wow move-up">
                                         <div class="thumb">
-                                            <img src="/img/blog/client/client-1.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/blog/client/client-1.jpg'" alt="Multipurpose">
                                         </div>
                                         <div class="content">
                                             <h6 class="heading heading-h6">SCOTT JAMES</h6>
@@ -154,7 +154,7 @@
                                     <!-- Start Single Comment -->
                                     <div class="comment comment-reply wow move-up">
                                         <div class="thumb">
-                                            <img src="/img/blog/client/client-2.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/blog/client/client-2.jpg'" alt="Multipurpose">
                                         </div>
                                         <div class="content">
                                             <h6 class="heading heading-h6">OWEN CHRIST</h6>
@@ -174,7 +174,7 @@
                                     <!-- Start Single Comment -->
                                     <div class="comment wow move-up">
                                         <div class="thumb">
-                                            <img src="/img/blog/client/client-3.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/blog/client/client-3.jpg'" alt="Multipurpose">
                                         </div>
                                         <div class="content">
                                             <h6 class="heading heading-h6">EDNA WATSON</h6>

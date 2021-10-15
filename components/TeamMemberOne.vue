@@ -6,9 +6,9 @@
                 <img :src="teamMember.image" alt="Team images">
                 <div class="overlay"></div>
                 <div class="shape">
-                    <img class="shape-01" src="/img/team/shape/team-shape-1.png" alt="shape image">
-                    <img class="shape-02" src="/img/team/shape/team-shape-2.png" alt="shape image">
-                    <img class="shape-03" src="/img/team/shape/team-shape-3.png" alt="shape image">
+                    <img class="shape-01" :src="$router.options.base+'img/team/shape/team-shape-1.png'" alt="shape image">
+                    <img class="shape-02" :src="$router.options.base+'img/team/shape/team-shape-2.png'" alt="shape image">
+                    <img class="shape-03" :src="$router.options.base+'img/team/shape/team-shape-3.png'" alt="shape image">
                 </div>
             </div>
             <!-- Social Network -->

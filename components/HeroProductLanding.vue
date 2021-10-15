@@ -13,7 +13,7 @@
                     </div>
                     <div class="col-lg-5 col-md-6">
                         <div class="hero-thumb">
-                            <img src="/img/slider/product-landing-slide-01.png" alt="image">
+                            <img :src="$router.options.base+'img/slider/product-landing-slide-01.png'" alt="image">
                         </div>
                     </div>
                 </div>

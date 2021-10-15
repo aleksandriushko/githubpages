@@ -6,7 +6,7 @@
                     <div class="branding">
                         <div class="logo">
                             <n-link to="/">
-                                <img src="/img/logo/simple-light-logo.png" alt="brook logo">
+                                <img :src="$router.options.base+'img/logo/simple-light-logo.png'" alt="brook logo">
                             </n-link>
                         </div>
                     </div>

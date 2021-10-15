@@ -14,7 +14,7 @@
                 <div class="col-lg-6">
                     <div class="video-with-thumb text-center mt--40">
                         <div class="thumb">
-                            <img src="/img/about/about-3.jpg" alt="video images">
+                            <img :src="$router.options.base+'img/about/about-3.jpg'" alt="video images">
                         </div>
                         <silent-box :image="videos[0]">
                             <template v-slot:silentbox-item>

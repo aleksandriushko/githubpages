@@ -5,7 +5,7 @@
                 <div class="col-lg-12 col-xl-6">
                     <div class="portfolio-cation wow move-up">
                         <div class="thumb">
-                            <img src="/img/portfolio/portfolio-1/portfolio-1.jpg" alt="Portfolio Images">
+                            <img :src="$router.options.base+'img/portfolio/portfolio-1/portfolio-1.jpg'" alt="Portfolio Images">
                         </div>
                         <div class="port-overlay-info">
                             <div class="hover-action">
@@ -24,7 +24,7 @@
                             <!-- Start Single Portfolio -->
                             <div class="portfolio-cation wow move-up">
                                 <div class="thumb">
-                                    <img src="/img/portfolio/portfolio-1/portfolio-2.jpg" alt="Portfolio Images">
+                                    <img :src="$router.options.base+'img/portfolio/portfolio-1/portfolio-2.jpg'" alt="Portfolio Images">
                                 </div>
                                 <div class="port-overlay-info">
                                     <div class="hover-action">
@@ -41,7 +41,7 @@
                             <!-- Start Single Portfolio -->
                             <div class="portfolio-cation wow move-up">
                                 <div class="thumb">
-                                    <img src="/img/portfolio/portfolio-1/portfolio-3.jpg" alt="Portfolio Images">
+                                    <img :src="$router.options.base+'img/portfolio/portfolio-1/portfolio-3.jpg'" alt="Portfolio Images">
                                 </div>
                                 <div class="port-overlay-info">
                                     <div class="hover-action">
@@ -58,7 +58,7 @@
                             <!-- Start Single Portfolio -->
                             <div class="portfolio-cation wow move-up">
                                 <div class="thumb">
-                                    <img src="/img/portfolio/portfolio-1/portfolio-4.jpg" alt="Portfolio Images">
+                                    <img :src="$router.options.base+'img/portfolio/portfolio-1/portfolio-4.jpg'" alt="Portfolio Images">
                                 </div>
                                 <div class="port-overlay-info">
                                     <div class="hover-action">

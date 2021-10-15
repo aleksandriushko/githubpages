@@ -5,7 +5,7 @@
             <div class="search-header">
                 <div class="logo">
                     <n-link to="/">
-                        <img src="/img/logo/brook-black.png" alt="brand logo">
+                        <img :src="$router.options.base+'img/logo/brook-black.png'" alt="brand logo">
                     </n-link>
                 </div>
                 <a href="javascript:void(0)" class="search-close" id="search-close-trigger" @click="toggleClass('removeClass', 'search-popup-open')"></a>

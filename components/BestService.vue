@@ -3,7 +3,7 @@
         <div class="row row--0 align-items-center">
             <div class="col-lg-12 col-xl-6">
                 <div class="bext-service thumb text-center">
-                    <img src="/img/about/about-6.jpg" alt="images">
+                    <img :src="$router.options.base+'img/about/about-6.jpg'" alt="images">
                 </div>
             </div>
             <div class="col-lg-12 col-xl-6">

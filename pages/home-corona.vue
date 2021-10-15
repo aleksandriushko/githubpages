@@ -30,7 +30,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                         <div class="thumbnail wow move-up animate">
-                            <img src="/img/corona/contagion.png" alt="multipurpose">
+                            <img :src="$router.options.base+'img/corona/contagion.png'" alt="multipurpose">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -45,7 +45,7 @@
                             <!-- Single Contagion Start -->
                             <div class="single-contagion mb--30">
                                 <div class="contagion-image">
-                                    <img src="/img/corona/contagion1.png" alt="corona">
+                                    <img :src="$router.options.base+'img/corona/contagion1.png'" alt="corona">
                                 </div>
                                 <div class="contagion-content">
                                     <h3 class="title">Human Contact</h3>
@@ -56,7 +56,7 @@
                             <!-- Single Contagion Start -->
                             <div class="single-contagion mb--30">
                                 <div class="contagion-image rotate-center">
-                                    <img src="/img/corona/contagion2.png" alt="corona">
+                                    <img :src="$router.options.base+'img/corona/contagion2.png'" alt="corona">
                                 </div>
                                 <div class="contagion-content">
                                     <h3 class="title">Air Transmission</h3>
@@ -67,7 +67,7 @@
                             <!-- Single Contagion Start -->
                             <div class="single-contagion mb--30">
                                 <div class="contagion-image">
-                                    <img src="/img/corona/contagion3.png" alt="corona">
+                                    <img :src="$router.options.base+'img/corona/contagion3.png'" alt="corona">
                                 </div>
                                 <div class="contagion-content">
                                     <h3 class="title">Contaminated Objects</h3>
@@ -98,7 +98,7 @@
                     </div>
                     <div class="col-xl-7 col-lg-6 wow move-up animate">
                         <div class="about-image">
-                            <img src="/img/corona/about.png" alt="">
+                            <img :src="$router.options.base+'img/corona/about.png'" alt="">
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                         <!-- Single symptom Start -->
                         <div class="single-symptom mb--80 mb_md--30 mb_sm--30">
                             <div class="symptom-thumb">
-                                <img src="/img/corona/symptom1.png" alt="image">
+                                <img :src="$router.options.base+'img/corona/symptom1.png'" alt="image">
                             </div>
                             <div class="symptom-content">
                                 <h3>Headache</h3>
@@ -136,7 +136,7 @@
                         <!-- Single symptom Start -->
                         <div class="single-symptom mb--80 mb_md--30 mb_sm--30">
                             <div class="symptom-thumb">
-                                <img src="/img/corona/symptom2.png" alt="image">
+                                <img :src="$router.options.base+'img/corona/symptom2.png'" alt="image">
                             </div>
                             <div class="symptom-content">
                                 <h3>Fever</h3>
@@ -148,7 +148,7 @@
                         <!-- Single symptom Start -->
                         <div class="single-symptom mb--80 mb_md--30 mb_sm--30">
                             <div class="symptom-thumb">
-                                <img src="/img/corona/symptom3.png" alt="image">
+                                <img :src="$router.options.base+'img/corona/symptom3.png'" alt="image">
                             </div>
                             <div class="symptom-content">
                                 <h3>Cough</h3>
@@ -160,7 +160,7 @@
                     <div class="col-xl-6 col-lg-4 d-xl-block d-lg-block d-none wow move-up animate">
                         <!-- symptom Image -->
                         <div class="symptom-image text-center">
-                            <img src="/img/corona/symptom.png" alt="image">
+                            <img :src="$router.options.base+'img/corona/symptom.png'" alt="image">
                         </div>
                         <!-- symptom Image -->
                     </div>
@@ -168,7 +168,7 @@
                         <!-- Single symptom Start -->
                         <div class="single-symptom mb--80 mb_md--30 mb_sm--30">
                             <div class="symptom-thumb">
-                                <img src="/img/corona/symptom4.png" alt="image">
+                                <img :src="$router.options.base+'img/corona/symptom4.png'" alt="image">
                             </div>
                             <div class="symptom-content">
                                 <h3>Sore Throat</h3>
@@ -180,7 +180,7 @@
                         <!-- Single symptom Start -->
                         <div class="single-symptom mb--80 mb_md--30 mb_sm--30">
                             <div class="symptom-thumb">
-                                <img src="/img/corona/symptom5.png" alt="image">
+                                <img :src="$router.options.base+'img/corona/symptom5.png'" alt="image">
                             </div>
                             <div class="symptom-content">
                                 <h3>Vomit</h3>
@@ -192,7 +192,7 @@
                         <!-- Single symptom Start -->
                         <div class="single-symptom mb--80 mb_md--30 mb_sm--30">
                             <div class="symptom-thumb">
-                                <img src="/img/corona/symptom6.png" alt="image">
+                                <img :src="$router.options.base+'img/corona/symptom6.png'" alt="image">
                             </div>
                             <div class="symptom-content">
                                 <h3>Shortness of Breath</h3>
@@ -212,7 +212,7 @@
                 <div class="row">
                     <div class="col-12 position-relative wow move-up animate">
                         <div class="corona-map-area">
-                            <img src="/img/corona/map.jpg" alt="map">
+                            <img :src="$router.options.base+'img/corona/map.jpg'" alt="map">
                         </div>
                         <div class="country-area">
                             <div class="single-country one">
@@ -228,7 +228,7 @@
                                             <p><span class="theme-color">7,392</span> Deaths</p>
                                         </div>
                                         <div class="country-image">
-                                            <img src="/img/corona/country/united-states.png" alt="">
+                                            <img :src="$router.options.base+'img/corona/country/united-states.png'" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -246,7 +246,7 @@
                                             <p><span class="theme-color">7,392</span> Deaths</p>
                                         </div>
                                         <div class="country-image">
-                                            <img src="/img/corona/country/brazil.png" alt="">
+                                            <img :src="$router.options.base+'img/corona/country/brazil.png'" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -264,7 +264,7 @@
                                             <p><span class="theme-color">7,392</span> Deaths</p>
                                         </div>
                                         <div class="country-image">
-                                            <img src="/img/corona/country/iran.png" alt="">
+                                            <img :src="$router.options.base+'img/corona/country/iran.png'" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -282,7 +282,7 @@
                                             <p><span class="theme-color">7,392</span> Deaths</p>
                                         </div>
                                         <div class="country-image">
-                                            <img src="/img/corona/country/italy.png" alt="">
+                                            <img :src="$router.options.base+'img/corona/country/italy.png'" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@
                                             <p><span class="theme-color">7,392</span> Deaths</p>
                                         </div>
                                         <div class="country-image">
-                                            <img src="/img/corona/country/china.png" alt="">
+                                            <img :src="$router.options.base+'img/corona/country/china.png'" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -318,7 +318,7 @@
                                             <p><span class="theme-color">7,392</span> Deaths</p>
                                         </div>
                                         <div class="country-image">
-                                            <img src="/img/corona/country/spain.png" alt="">
+                                            <img :src="$router.options.base+'img/corona/country/spain.png'" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -350,7 +350,7 @@
                                 <!-- Single Prevenation Start -->
                                 <div class="single-prevination mb--80 mb_md--30 mb_sm--30">
                                     <div class="prevination-iamge">
-                                        <img src="/img/corona/prevent_02.png" alt="">
+                                        <img :src="$router.options.base+'img/corona/prevent_02.png'" alt="">
                                     </div>
                                     <div class="prevination-content">
                                         <h3>Wear a Mask</h3>
@@ -362,7 +362,7 @@
                                 <!-- Single Prevenation Start -->
                                 <div class="single-prevination mb--80 mb_md--30 mb_sm--30">
                                     <div class="prevination-iamge">
-                                        <img src="/img/corona/prevent_04.png" alt="">
+                                        <img :src="$router.options.base+'img/corona/prevent_04.png'" alt="">
                                     </div>
                                     <div class="prevination-content">
                                         <h3>Avoid close Contact</h3>
@@ -374,7 +374,7 @@
                                 <!-- Single Prevenation Start -->
                                 <div class="single-prevination mb--80 mb_md--30 mb_sm--30">
                                     <div class="prevination-iamge">
-                                        <img src="/img/corona/prevent_03.png" alt="">
+                                        <img :src="$router.options.base+'img/corona/prevent_03.png'" alt="">
                                     </div>
                                     <div class="prevination-content">
                                         <h3>Stay at Home</h3>
@@ -386,7 +386,7 @@
                                 <!-- Single Prevenation Start -->
                                 <div class="single-prevination mb--80 mb_md--30 mb_sm--30">
                                     <div class="prevination-iamge">
-                                        <img src="/img/corona/prevent_06.png" alt="">
+                                        <img :src="$router.options.base+'img/corona/prevent_06.png'" alt="">
                                     </div>
                                     <div class="prevination-content">
                                         <h3>Wash your Hand</h3>
@@ -398,7 +398,7 @@
                                 <!-- Single Prevenation Start -->
                                 <div class="single-prevination mb--80 mb_md--30 mb_sm--30">
                                     <div class="prevination-iamge">
-                                        <img src="/img/corona/prevent_05.png" alt="">
+                                        <img :src="$router.options.base+'img/corona/prevent_05.png'" alt="">
                                     </div>
                                     <div class="prevination-content">
                                         <h3>Cover Coughs & Sneezes</h3>
@@ -410,7 +410,7 @@
                                 <!-- Single Prevenation Start -->
                                 <div class="single-prevination mb--80 mb_md--30 mb_sm--30">
                                     <div class="prevination-iamge">
-                                        <img src="/img/corona/prevent_01.png" alt="">
+                                        <img :src="$router.options.base+'img/corona/prevent_01.png'" alt="">
                                     </div>
                                     <div class="prevination-content">
                                         <h3>Clean & Disinfect</h3>
@@ -422,7 +422,7 @@
                     </div>
                     <div class="col-lg-5 col-md-12 wow move-up animate">
                         <div class="prevination-image">
-                            <img src="/img/corona/protection.png" alt="">
+                            <img :src="$router.options.base+'img/corona/protection.png'" alt="">
                         </div>
                     </div>
                 </div>
@@ -518,7 +518,7 @@
                                     <div class="col-md-6 col-6 wow move-up animate">
                                         <div class="single-hand-wash mb--70 mb_md--30 mb_sm--30">
                                             <div class="hand-wash-image">
-                                                <img src="/img/corona/hand_03.png" alt="image">
+                                                <img :src="$router.options.base+'img/corona/hand_03.png'" alt="image">
                                             </div>
                                             <div class="hand-wash-content">
                                                 <h5>Between Fingers</h5>
@@ -528,7 +528,7 @@
                                     <div class="col-md-6 col-6 wow move-up animate">
                                         <div class="single-hand-wash mb--70 mb_md--30 mb_sm--30">
                                             <div class="hand-wash-image">
-                                                <img src="/img/corona/hand_04.png" alt="image">
+                                                <img :src="$router.options.base+'img/corona/hand_04.png'" alt="image">
                                             </div>
                                             <div class="hand-wash-content">
                                                 <h5>Rinse your Hand</h5>
@@ -543,7 +543,7 @@
                                     <div class="col-md-6 col-6 wow move-up animate">
                                         <div class="single-hand-wash mb--70 mb_lg--40 mb_md--30 mb_sm--30">
                                             <div class="hand-wash-image">
-                                                <img src="/img/corona/hand_01.png" alt="image">
+                                                <img :src="$router.options.base+'img/corona/hand_01.png'" alt="image">
                                             </div>
                                             <div class="hand-wash-content">
                                                 <h5>Water & Soap</h5>
@@ -553,7 +553,7 @@
                                     <div class="col-md-6 col-6 wow move-up animate">
                                         <div class="single-hand-wash mb--70 mb_lg--40 mb_md--30 mb_sm--30">
                                             <div class="hand-wash-image">
-                                                <img src="/img/corona/hand_02.png" alt="image">
+                                                <img :src="$router.options.base+'img/corona/hand_02.png'" alt="image">
                                             </div>
                                             <div class="hand-wash-content">
                                                 <h5>Palm to Palm</h5>
@@ -563,7 +563,7 @@
                                     <div class="col-md-6 col-6 wow move-up animate">
                                         <div class="single-hand-wash mb--70 mb_md--30 mb_sm--30">
                                             <div class="hand-wash-image">
-                                                <img src="/img/corona/hand_05.png" alt="image">
+                                                <img :src="$router.options.base+'img/corona/hand_05.png'" alt="image">
                                             </div>
                                             <div class="hand-wash-content">
                                                 <h5>Dry your Hand</h5>
@@ -573,7 +573,7 @@
                                     <div class="col-md-6 col-6 wow move-up animate">
                                         <div class="single-hand-wash mb--70 mb_md--30 mb_sm--30">
                                             <div class="hand-wash-image">
-                                                <img src="/img/corona/hand_06.png" alt="image">
+                                                <img :src="$router.options.base+'img/corona/hand_06.png'" alt="image">
                                             </div>
                                             <div class="hand-wash-content">
                                                 <h5>Hands are Clean</h5>
@@ -606,7 +606,7 @@
                         <div class="blog-grid blog-restaurant">
                             <div class="post-thumb">
                                 <n-link to="/blog/blog-details">
-                                    <img src="/img/corona/blog1.jpg" alt="blog image">
+                                    <img :src="$router.options.base+'img/corona/blog1.jpg'" alt="blog image">
                                 </n-link>
                             </div>
                             <div class="post-content">
@@ -633,7 +633,7 @@
                         <div class="blog-grid blog-restaurant">
                             <div class="post-thumb">
                                 <n-link to="/blog/blog-details">
-                                    <img src="/img/corona/blog2.jpg" alt="blog image">
+                                    <img :src="$router.options.base+'img/corona/blog2.jpg'" alt="blog image">
                                 </n-link>
                             </div>
                             <div class="post-content">
@@ -660,7 +660,7 @@
                         <div class="blog-grid blog-restaurant">
                             <div class="post-thumb">
                                 <n-link to="/blog/blog-details">
-                                    <img src="/img/corona/blog3.jpg" alt="blog image">
+                                    <img :src="$router.options.base+'img/corona/blog3.jpg'" alt="blog image">
                                 </n-link>
                             </div>
                             <div class="post-content">

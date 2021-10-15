@@ -26,7 +26,7 @@
                     <div class="portfolio portfolio_style--1 portfolio-25 grid-width-2 cat--1 cat--4">
                         <div class="poss_relative">
                             <div class="thumb">
-                                <img src="/img/portfolio/grid/metro3-1.jpg" alt="Portfolio Images">
+                                <img :src="$router.options.base+'img/portfolio/grid/metro3-1.jpg'" alt="Portfolio Images">
                             </div>
                             <div class="port-overlay-info">
                                 <div class="hover-action">
@@ -45,7 +45,7 @@
                     <div class="portfolio portfolio_style--1 portfolio-25 grid-width-2 cat--2 cat--4">
                         <div class="poss_relative">
                             <div class="thumb">
-                                <img src="/img/portfolio/grid/metro3-2.jpg" alt="Portfolio Images">
+                                <img :src="$router.options.base+'img/portfolio/grid/metro3-2.jpg'" alt="Portfolio Images">
                             </div>
                             <div class="port-overlay-info">
                                 <div class="hover-action">
@@ -64,7 +64,7 @@
                     <div class="portfolio portfolio_style--1 portfolio-25 cat--1 cat--3">
                         <div class="poss_relative">
                             <div class="thumb">
-                                <img src="/img/portfolio/grid/metro3-3.jpg" alt="Portfolio Images">
+                                <img :src="$router.options.base+'img/portfolio/grid/metro3-3.jpg'" alt="Portfolio Images">
                             </div>
                             <div class="port-overlay-info">
                                 <div class="hover-action">
@@ -83,7 +83,7 @@
                     <div class="portfolio portfolio_style--1 portfolio-25 cat--2 cat--3 cat--4">
                         <div class="poss_relative">
                             <div class="thumb">
-                                <img src="/img/portfolio/grid/metro3-4.jpg" alt="Portfolio Images">
+                                <img :src="$router.options.base+'img/portfolio/grid/metro3-4.jpg'" alt="Portfolio Images">
                             </div>
                             <div class="port-overlay-info">
                                 <div class="hover-action">
@@ -102,7 +102,7 @@
                     <div class="portfolio portfolio_style--1 portfolio-25 grid-width-2 cat--1">
                         <div class="poss_relative">
                             <div class="thumb">
-                                <img src="/img/portfolio/grid/metro3-5.jpg" alt="Portfolio Images">
+                                <img :src="$router.options.base+'img/portfolio/grid/metro3-5.jpg'" alt="Portfolio Images">
                             </div>
                             <div class="port-overlay-info">
                                 <div class="hover-action">
@@ -121,7 +121,7 @@
                     <div class="portfolio portfolio_style--1 portfolio-25 grid-width-2 cat--3">
                         <div class="poss_relative">
                             <div class="thumb">
-                                <img src="/img/portfolio/grid/metro3-6.jpg" alt="Portfolio Images">
+                                <img :src="$router.options.base+'img/portfolio/grid/metro3-6.jpg'" alt="Portfolio Images">
                             </div>
                             <div class="port-overlay-info">
                                 <div class="hover-action">
@@ -140,7 +140,7 @@
                     <div class="portfolio portfolio_style--1 portfolio-25 cat--3 cat--4">
                         <div class="poss_relative">
                             <div class="thumb">
-                                <img src="/img/portfolio/grid/metro3-7.jpg" alt="Portfolio Images">
+                                <img :src="$router.options.base+'img/portfolio/grid/metro3-7.jpg'" alt="Portfolio Images">
                             </div>
                             <div class="port-overlay-info">
                                 <div class="hover-action">

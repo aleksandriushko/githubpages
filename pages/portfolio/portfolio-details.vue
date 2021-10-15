@@ -62,19 +62,19 @@
                         <div class="portfolio-right portfolio-details-gallery text-center text-lg-right">
                             <!-- Start Portfolio Image -->
                             <div class="portfolio-image mb--50">
-                                <img src="/img/portfolio/big-image/gallery-1.jpg" alt="portfolio">
+                                <img :src="$router.options.base+'img/portfolio/big-image/gallery-1.jpg'" alt="portfolio">
                             </div>
                             <!-- End Portfolio Image -->
 
                             <!-- Start Portfolio Image -->
                             <div class="portfolio-image mb--50">
-                                <img src="/img/portfolio/big-image/gallery-2.jpg" alt="portfolio">
+                                <img :src="$router.options.base+'img/portfolio/big-image/gallery-2.jpg'" alt="portfolio">
                             </div>
                             <!-- End Portfolio Image -->
 
                             <!-- Start Portfolio Image -->
                             <div class="portfolio-image">
-                                <img src="/img/portfolio/big-image/gallery-3.jpg" alt="portfolio">
+                                <img :src="$router.options.base+'img/portfolio/big-image/gallery-3.jpg'" alt="portfolio">
                             </div>
                             <!-- End Portfolio Image -->
                         </div>

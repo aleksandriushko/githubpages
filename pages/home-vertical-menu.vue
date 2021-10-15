@@ -47,7 +47,7 @@
                                     <div class="icon-box text-left no-border bg-transparant">
                                         <div class="inner">
                                             <div class="icon">
-                                                <img src="/img/service/icon-box/home-vertical-menu-box-icon-image-01.png" alt="image">
+                                                <img :src="$router.options.base+'img/service/icon-box/home-vertical-menu-box-icon-image-01.png'" alt="image">
                                             </div>
                                             <div class="content mt--35">
                                                 <h5 class="heading heading-h5">Original Ideas</h5>
@@ -63,7 +63,7 @@
                                     <div class="icon-box text-left no-border bg-transparant">
                                         <div class="inner">
                                             <div class="icon">
-                                                <img src="/img/service/icon-box/home-vertical-menu-box-icon-image-02.png" alt="image">
+                                                <img :src="$router.options.base+'img/service/icon-box/home-vertical-menu-box-icon-image-02.png'" alt="image">
                                             </div>
                                             <div class="content mt--35">
                                                 <h5 class="heading heading-h5">Graphic designs</h5>

@@ -8,7 +8,7 @@
                             <div class="swiper-slide">
                                 <div class="flexale-image">
                                     <div class="thumb">
-                                        <img src="/img/flexable-image-slide/flexale-1/flexable-small--image-5.jpg" alt="image">
+                                        <img :src="$router.options.base+'img/flexable-image-slide/flexale-1/flexable-small--image-5.jpg'" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -16,7 +16,7 @@
                             <div class="swiper-slide">
                                 <div class="flexale-image">
                                     <div class="thumb">
-                                        <img src="/img/flexable-image-slide/flexale-1/flexable-small--image-1.jpg" alt="image">
+                                        <img :src="$router.options.base+'img/flexable-image-slide/flexale-1/flexable-small--image-1.jpg'" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -24,7 +24,7 @@
                             <div class="swiper-slide">
                                 <div class="flexale-image">
                                     <div class="thumb">
-                                        <img src="/img/flexable-image-slide/flexale-1/flexable-small--image-2.jpg" alt="image">
+                                        <img :src="$router.options.base+'img/flexable-image-slide/flexale-1/flexable-small--image-2.jpg'" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -32,7 +32,7 @@
                             <div class="swiper-slide">
                                 <div class="flexale-image">
                                     <div class="thumb">
-                                        <img src="/img/flexable-image-slide/flexale-1/flexable-small--image-3.jpg" alt="image">
+                                        <img :src="$router.options.base+'img/flexable-image-slide/flexale-1/flexable-small--image-3.jpg'" alt="image">
                                     </div>
                                 </div>
                             </div>

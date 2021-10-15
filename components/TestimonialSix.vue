@@ -6,7 +6,7 @@
                     <div class="brook-section-title text-center mb--80 mb_sm--40">
                         <h3 class="heading heading-h3 font-large">What clients talk about us</h3>
                         <div class="thumb mt--35 mt_sm--20">
-                            <img src="/img/service/icon-box/wavy-icon.png" alt="Multipurpose">
+                            <img :src="$router.options.base+'img/service/icon-box/wavy-icon.png'" alt="Multipurpose">
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                                         yourself.</p>
                                     <div class="testimonial-info">
                                         <div class="post-thumbnail">
-                                            <img src="/img/testimonial/clint-1/clint-1.jpg" alt="clint image">
+                                            <img :src="$router.options.base+'img/testimonial/clint-1/clint-1.jpg'" alt="clint image">
                                         </div>
                                         <div class="clint-info">
                                             <h6>Harley Mills</h6>
@@ -61,7 +61,7 @@
                                         yourself.</p>
                                     <div class="testimonial-info">
                                         <div class="post-thumbnail">
-                                            <img src="/img/testimonial/clint-1/clint-2.jpg" alt="clint image">
+                                            <img :src="$router.options.base+'img/testimonial/clint-1/clint-2.jpg'" alt="clint image">
                                         </div>
                                         <div class="clint-info">
                                             <h6>Harley Mills</h6>
@@ -91,7 +91,7 @@
                                         yourself.</p>
                                     <div class="testimonial-info">
                                         <div class="post-thumbnail">
-                                            <img src="/img/testimonial/clint-1/clint-3.jpg" alt="clint image">
+                                            <img :src="$router.options.base+'img/testimonial/clint-1/clint-3.jpg'" alt="clint image">
                                         </div>
                                         <div class="clint-info">
                                             <h6>Harley Mills</h6>

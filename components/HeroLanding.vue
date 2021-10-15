@@ -5,7 +5,7 @@
                 <div class="col-12">
                     <div class="hero-content text-center">
                         <div class="hero-thumb">
-                            <img src="/img/slider/home-landing-slide-01.png" alt="image">
+                            <img :src="$router.options.base+'img/slider/home-landing-slide-01.png'" alt="image">
                         </div>
                         <client-only>
                             <silent-box :image="videos[0]">

@@ -12,11 +12,11 @@
                 <div class="col-lg-6">
                     <div class="portfolio-right portfolio-details-gallery text-center text-lg-right">
                         <div class="portfolio-image mb--50">
-                            <img src="/img/portfolio/big-image/gallery-wide-1.jpg" alt="portfolio">
+                            <img :src="$router.options.base+'img/portfolio/big-image/gallery-wide-1.jpg'" alt="portfolio">
                         </div>
 
                         <div class="portfolio-image">
-                            <img src="/img/portfolio/big-image/gallery-wide-2.jpg" alt="portfolio">
+                            <img :src="$router.options.base+'img/portfolio/big-image/gallery-wide-2.jpg'" alt="portfolio">
                         </div>
                     </div>
                 </div>

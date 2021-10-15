@@ -6,7 +6,7 @@
                     <div class="brook-section-title wow move-up">
                         <h3 class="heading heading-h3 font-large pr--40">Creative Team</h3>
                         <div class="thumb mt--35">
-                            <img src="/img/service/icon-box/wavy-icon.png" alt="Multipurpose">
+                            <img :src="$router.options.base+'img/service/icon-box/wavy-icon.png'" alt="Multipurpose">
                         </div>
                         <div class="content mt--45">
                             <p class="bk_pra line-height-1-87 font-16">Each member of our team is a specialist in his or her field. Together, we make sure you're receiving the most dedicated services with best quality.</p>

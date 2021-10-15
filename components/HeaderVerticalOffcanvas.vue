@@ -5,7 +5,7 @@
                 <div class="header-top">
                     <div class="branding">
                         <n-link to="">
-                            <img src="/img/logo/simple-dark-logo.png" alt="brand logo">
+                            <img :src="$router.options.base+'img/logo/simple-dark-logo.png'" alt="brand logo">
                         </n-link>
                     </div>
                     <!-- Start MEnu -->

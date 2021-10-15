@@ -6,7 +6,7 @@
                     <div class="footer-widget">
                         <div class="logo">
                             <n-link to="/">
-                                <img src="/img/logo/brook.png" alt="Brand Logo">
+                                <img :src="$router.options.base+'img/logo/brook.png'" alt="Brand Logo">
                             </n-link>
                         </div>
                     </div>

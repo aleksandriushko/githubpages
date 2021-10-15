@@ -10,7 +10,7 @@
                                 <div class="header-left">
                                     <div class="simple-logo">
                                         <n-link to="/">
-                                            <img src="/img/logo/simple-dark-logo2.png" alt="Brand Logo">
+                                            <img :src="$router.options.base+'img/logo/simple-dark-logo2.png'" alt="Brand Logo">
                                         </n-link>
                                     </div>
                                 </div>

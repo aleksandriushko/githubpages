@@ -26,7 +26,7 @@
                                             <div class="masonary-item width-33">
                                                 <div class="gallery">
                                                     <div class="thumb">
-                                                        <img src="/img/gallery/gallery-2/gallery-1.jpg" alt="Gallery Images">
+                                                        <img :src="$router.options.base+'img/gallery/gallery-2/gallery-1.jpg'" alt="Gallery Images">
                                                     </div>
                                                     <div class="hover-overlay yellow-overlay">
                                                         <div class="inner">
@@ -43,7 +43,7 @@
                                             <div class="masonary-item width-33">
                                                 <div class="gallery">
                                                     <div class="thumb">
-                                                        <img src="/img/gallery/gallery-2/gallery-2.jpg" alt="Gallery Images">
+                                                        <img :src="$router.options.base+'img/gallery/gallery-2/gallery-2.jpg'" alt="Gallery Images">
                                                     </div>
                                                     <div class="hover-overlay yellow-overlay">
                                                         <div class="inner">
@@ -60,7 +60,7 @@
                                             <div class="masonary-item width-33">
                                                 <div class="gallery">
                                                     <div class="thumb">
-                                                        <img src="/img/gallery/gallery-2/gallery-3.jpg" alt="Gallery Images">
+                                                        <img :src="$router.options.base+'img/gallery/gallery-2/gallery-3.jpg'" alt="Gallery Images">
                                                     </div>
                                                     <div class="hover-overlay yellow-overlay">
                                                         <div class="inner">
@@ -77,7 +77,7 @@
                                             <div class="masonary-item width-33">
                                                 <div class="gallery">
                                                     <div class="thumb">
-                                                        <img src="/img/gallery/gallery-2/gallery-4.jpg" alt="Gallery Images">
+                                                        <img :src="$router.options.base+'img/gallery/gallery-2/gallery-4.jpg'" alt="Gallery Images">
                                                     </div>
                                                     <div class="hover-overlay yellow-overlay">
                                                         <div class="inner">
@@ -94,7 +94,7 @@
                                             <div class="masonary-item width-33">
                                                 <div class="gallery">
                                                     <div class="thumb">
-                                                        <img src="/img/gallery/gallery-2/gallery-5.jpg" alt="Gallery Images">
+                                                        <img :src="$router.options.base+'img/gallery/gallery-2/gallery-5.jpg'" alt="Gallery Images">
                                                     </div>
                                                     <div class="hover-overlay yellow-overlay">
                                                         <div class="inner">
@@ -111,7 +111,7 @@
                                             <div class="masonary-item width-33">
                                                 <div class="gallery">
                                                     <div class="thumb">
-                                                        <img src="/img/gallery/gallery-2/gallery-6.jpg" alt="Gallery Images">
+                                                        <img :src="$router.options.base+'img/gallery/gallery-2/gallery-6.jpg'" alt="Gallery Images">
                                                     </div>
                                                     <div class="hover-overlay yellow-overlay">
                                                         <div class="inner">
@@ -128,7 +128,7 @@
                                             <div class="masonary-item width-33">
                                                 <div class="gallery">
                                                     <div class="thumb">
-                                                        <img src="/img/gallery/gallery-2/gallery-7.jpg" alt="Gallery Images">
+                                                        <img :src="$router.options.base+'img/gallery/gallery-2/gallery-7.jpg'" alt="Gallery Images">
                                                     </div>
                                                     <div class="hover-overlay yellow-overlay">
                                                         <div class="inner">
@@ -145,7 +145,7 @@
                                             <div class="masonary-item width-33">
                                                 <div class="gallery">
                                                     <div class="thumb">
-                                                        <img src="/img/gallery/gallery-2/gallery-8.jpg" alt="Gallery Images">
+                                                        <img :src="$router.options.base+'img/gallery/gallery-2/gallery-8.jpg'" alt="Gallery Images">
                                                     </div>
                                                     <div class="hover-overlay yellow-overlay">
                                                         <div class="inner">

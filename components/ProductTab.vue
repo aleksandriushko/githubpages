@@ -9,7 +9,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product01.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product01.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -26,7 +26,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product02.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product02.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product03.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product03.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -60,7 +60,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product04.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product04.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product03.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product03.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -100,7 +100,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product01.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product01.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product02.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product02.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -134,7 +134,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product03.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product03.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product04.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product04.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -168,7 +168,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product03.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product03.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -191,7 +191,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product01.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product01.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product02.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product02.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -225,7 +225,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product03.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product03.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -242,7 +242,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product04.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product04.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -259,7 +259,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product03.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product03.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -282,7 +282,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product01.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product01.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product02.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product02.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -316,7 +316,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product03.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product03.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -333,7 +333,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product04.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product04.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>
@@ -350,7 +350,7 @@
                                 <div class="product-thumbnail">
                                     <div class="thumbnail">
                                         <div class="product-main-image">
-                                            <img src="/img/restaurant/product03.jpg" alt="Multipurpose">
+                                            <img :src="$router.options.base+'img/restaurant/product03.jpg'" alt="Multipurpose">
                                         </div>
                                     </div>
                                 </div>

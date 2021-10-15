@@ -37,7 +37,7 @@
                                     </div>
                                     <div class="col-md-6 d-none d-md-block">
                                         <div class="thumbnail video-with-thumb">
-                                            <img src="/img/slider/presentation/home-presentation-image-03.png" alt="multi-purpose">
+                                            <img :src="$router.options.base+'img/slider/presentation/home-presentation-image-03.png'" alt="multi-purpose">
                                             <!-- Start Single Popup -->
                                             <div class="video-btn position--center">
                                                 <a class="play__btn" href="https://www.youtube.com/watch?v=9No-FiEInLA" target="_blank">
@@ -61,7 +61,7 @@
                                     <div class="row">
                                         <div class="col-lg-4 col-md-4 d-none d-md-block">
                                             <div class="thumb">
-                                                <img src="/img/slider/presentation/iphone-02.png" alt="Multipurpose">
+                                                <img :src="$router.options.base+'img/slider/presentation/iphone-02.png'" alt="Multipurpose">
                                             </div>
                                         </div>
                                         <div class="col-lg-8 col-md-8">

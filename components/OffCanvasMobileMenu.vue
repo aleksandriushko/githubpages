@@ -5,7 +5,7 @@
             <div class="mobileheader">
                 <div class="logo">
                     <n-link to="/">
-                        <img src="/img/logo/brook-black.png" alt="brand logo">
+                        <img :src="$router.options.base+'img/logo/brook-black.png'" alt="brand logo">
                     </n-link>
                 </div>
                 <a class="mobile-close" href="javascript:void(0)" @click="mobiletoggleClass('removeClass', 'show-mobile-menu')"></a>

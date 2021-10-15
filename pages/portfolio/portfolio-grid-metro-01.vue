@@ -25,7 +25,7 @@
                     <!-- Start Single Portfolio -->
                     <div class="portfolio portfolio_style--1 portfolio-25 grid-width-2">
                         <div class="thumb">
-                            <img src="/img/portfolio/grid/grid-metro-1.jpg" alt="Portfolio Images">
+                            <img :src="$router.options.base+'img/portfolio/grid/grid-metro-1.jpg'" alt="Portfolio Images">
                         </div>
                         <div class="port-overlay-info">
                             <div class="hover-action">
@@ -42,7 +42,7 @@
                     <!-- Start Single Portfolio -->
                     <div class="portfolio portfolio_style--1 portfolio-25 grid-width-2">
                         <div class="thumb">
-                            <img src="/img/portfolio/grid/grid-metro-2.jpg" alt="Portfolio Images">
+                            <img :src="$router.options.base+'img/portfolio/grid/grid-metro-2.jpg'" alt="Portfolio Images">
                         </div>
                         <div class="port-overlay-info">
                             <div class="hover-action">
@@ -59,7 +59,7 @@
                     <!-- Start Single Portfolio -->
                     <div class="portfolio portfolio_style--1 portfolio-25">
                         <div class="thumb">
-                            <img src="/img/portfolio/grid/grid-metro-3.jpg" alt="Portfolio Images">
+                            <img :src="$router.options.base+'img/portfolio/grid/grid-metro-3.jpg'" alt="Portfolio Images">
                         </div>
                         <div class="port-overlay-info">
                             <div class="hover-action">
@@ -76,7 +76,7 @@
                     <!-- Start Single Portfolio -->
                     <div class="portfolio portfolio_style--1 portfolio-25">
                         <div class="thumb">
-                            <img src="/img/portfolio/grid/grid-metro-4.jpg" alt="Portfolio Images">
+                            <img :src="$router.options.base+'img/portfolio/grid/grid-metro-4.jpg'" alt="Portfolio Images">
                         </div>
                         <div class="port-overlay-info">
                             <div class="hover-action">
@@ -93,7 +93,7 @@
                     <!-- Start Single Portfolio -->
                     <div class="portfolio portfolio_style--1 portfolio-25 grid-width-2">
                         <div class="thumb">
-                            <img src="/img/portfolio/grid/grid-metro-5.jpg" alt="Portfolio Images">
+                            <img :src="$router.options.base+'img/portfolio/grid/grid-metro-5.jpg'" alt="Portfolio Images">
                         </div>
                         <div class="port-overlay-info">
                             <div class="hover-action">
@@ -110,7 +110,7 @@
                     <!-- Start Single Portfolio -->
                     <div class="portfolio portfolio_style--1 portfolio-25 grid-width-2">
                         <div class="thumb">
-                            <img src="/img/portfolio/grid/grid-metro-6.jpg" alt="Portfolio Images">
+                            <img :src="$router.options.base+'img/portfolio/grid/grid-metro-6.jpg'" alt="Portfolio Images">
                         </div>
                         <div class="port-overlay-info">
                             <div class="hover-action">
@@ -127,7 +127,7 @@
                     <!-- Start Single Portfolio -->
                     <div class="portfolio portfolio_style--1 portfolio-25">
                         <div class="thumb">
-                            <img src="/img/portfolio/grid/grid-metro-7.jpg" alt="Portfolio Images">
+                            <img :src="$router.options.base+'img/portfolio/grid/grid-metro-7.jpg'" alt="Portfolio Images">
                         </div>
                         <div class="port-overlay-info">
                             <div class="hover-action">
@@ -144,7 +144,7 @@
                     <!-- Start Single Portfolio -->
                     <div class="portfolio portfolio_style--1 portfolio-25">
                         <div class="thumb">
-                            <img src="/img/portfolio/grid/grid-metro-8.jpg" alt="Portfolio Images">
+                            <img :src="$router.options.base+'img/portfolio/grid/grid-metro-8.jpg'" alt="Portfolio Images">
                         </div>
                         <div class="port-overlay-info">
                             <div class="hover-action">

@@ -19,7 +19,7 @@
                                     <span class="theme-color">Hello.</span> My name is Blake Gallene.
                                 </h2>
                                 <div class="thumb mt--55">
-                                    <img class="w-100" src="/img/about/about-7.jpg" alt="about image">
+                                    <img class="w-100" :src="$router.options.base+'img/about/about-7.jpg'" alt="about image">
                                 </div>
                                 <div class="bkseparator--40"></div>
                                 <h4 class="heading heading-h4">About me</h4>
@@ -27,7 +27,7 @@
                                 <p class="bk_pra">I focus on creating creative, original, and conceptual works for editorial illustrations, magazines, covers, and brands as well as online visual organizations. Through constant learning and improving, my works excel in designing.</p>
                                 <div class="bkseparator--40"></div>
                                 <div class="signeture">
-                                    <img src="/img/icons/singneture2.png" alt="about image">
+                                    <img :src="$router.options.base+'img/icons/singneture2.png'" alt="about image">
                                 </div>
                             </div>
                         </div>

@@ -6,7 +6,7 @@
                     <div class="brook-section-title text-center mb--80">
                         <h3 class="heading heading-h3 font-large">{{ sectionTitle }}</h3>
                         <div class="thumb mt--35">
-                            <img src="/img/service/icon-box/wavy-icon.png" alt="Multipurpose">
+                            <img :src="$router.options.base+'img/service/icon-box/wavy-icon.png'" alt="Multipurpose">
                         </div>
                         <div class="bkseparator--30"></div>
                         <p class="bk_pra font-16 line-height-1-87" v-html="sectionSubTitle">{{ sectionSubTitle }}</p>

@@ -5,7 +5,7 @@
                 <div class="col-lg-7">
                     <div class="video-with-thumb text-center move-up wow">
                         <div class="thumb">
-                            <img src="/img/about/macbook-02.png" alt="video images">
+                            <img :src="$router.options.base+'img/about/macbook-02.png'" alt="video images">
                         </div>
                     </div>
                 </div>

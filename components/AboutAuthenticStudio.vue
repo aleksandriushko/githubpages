@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about-thumb text-center text-lg-right mt_md--40 mt_sm--40">
-                        <img src="/img/about/home-authentic-studio-image-01.jpg" alt="Multipurpose">
+                        <img :src="$router.options.base+'img/about/home-authentic-studio-image-01.jpg'" alt="Multipurpose">
                     </div>
                 </div>
             </div>

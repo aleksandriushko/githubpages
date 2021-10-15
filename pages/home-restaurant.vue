@@ -34,7 +34,7 @@
                         </div>
                         <div class="col-xl-7 col-lg-6 offset-xl-1 col-md-12">
                             <div class="about-thumb text-center text-lg-right mt_md--40 mt_sm--40">
-                                <img src="/img/restaurant/home-restaurant-about-image.jpg" alt="Multipurpose">
+                                <img :src="$router.options.base+'img/restaurant/home-restaurant-about-image.jpg'" alt="Multipurpose">
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                             <div class="icon-box text-center no-border bg-transparant vibrate-style">
                                 <div class="inner">
                                     <div class="icon">
-                                        <img src="/img/restaurant/home-restaurant-box-image-01.png" alt="Brook">
+                                        <img :src="$router.options.base+'img/restaurant/home-restaurant-box-image-01.png'" alt="Brook">
                                     </div>
                                     <div class="content">
                                         <h5 class="heading heading-h5"> Quick Breakfast</h5>
@@ -66,7 +66,7 @@
                             <div class="icon-box text-center no-border bg-transparant vibrate-style">
                                 <div class="inner">
                                     <div class="icon">
-                                        <img src="/img/restaurant/home-restaurant-box-image-02.png" alt="Brook">
+                                        <img :src="$router.options.base+'img/restaurant/home-restaurant-box-image-02.png'" alt="Brook">
                                     </div>
                                     <div class="content">
                                         <h5 class="heading heading-h5">  Healthy Dinner</h5>
@@ -81,7 +81,7 @@
                             <div class="icon-box text-center no-border bg-transparant vibrate-style">
                                 <div class="inner">
                                     <div class="icon">
-                                        <img src="/img/restaurant/home-restaurant-box-image-03.png" alt="Brook">
+                                        <img :src="$router.options.base+'img/restaurant/home-restaurant-box-image-03.png'" alt="Brook">
                                     </div>
                                     <div class="content">
                                         <h5 class="heading heading-h5"> Innovative</h5>

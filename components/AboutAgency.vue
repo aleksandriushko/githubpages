@@ -4,7 +4,7 @@
             <div class="row about--creative align-items-center">
                 <div class="col-lg-6 col-md-12 col-12">
                     <div class="thumb text-left text-lg-left wow move-up">
-                        <img src="/img/about/home-creative-agency-image-01.png" alt="about images">
+                        <img :src="$router.options.base+'img/about/home-creative-agency-image-01.png'" alt="about images">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12 mt_md--40 mt_sm--40">

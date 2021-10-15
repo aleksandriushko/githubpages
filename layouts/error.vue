@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="error-image">
-                        <img class="img-fluid" src="/img/others/page-404-image.png" alt="Not Found Image">
+                        <img class="img-fluid" :src="$router.options.base+'img/others/page-404-image.png'" alt="Not Found Image">
                     </div>
                     <h1 class="error-404-title font-weight--light text-white" v-if="error.statusCode === 404">Oops! Page not found!</h1>
                     <h1 class="error-404-title font-weight--light text-white" v-else>An error occurred</h1>

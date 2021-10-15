@@ -59,7 +59,7 @@
                 <!-- Start Single Accordion -->
                 <div class="col-md-6 mt_sm--30">
                     <div class="thumb">
-                        <img class="w-100" src="/img/about/about-2.jpg" alt="about images">
+                        <img class="w-100" :src="$router.options.base+'img/about/about-2.jpg'" alt="about images">
                     </div>
                 </div>
                 <!-- End Single Accordion -->

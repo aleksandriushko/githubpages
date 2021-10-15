@@ -6,7 +6,7 @@
                     <div class="brook-section-title wow move-up">
                         <h3 class="heading heading-h3 font-large">We strip back the unnecessary</h3>
                         <div class="thumb mt--35">
-                            <img src="/img/service/icon-box/wavy-icon.png" alt="wavy icon">
+                            <img :src="$router.options.base+'img/service/icon-box/wavy-icon.png'" alt="wavy icon">
                         </div>
                     </div>
                 </div>

@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-lg-5 mt_md--40 mt_sm--40">
                     <div class="thumb">
-                        <img class="w-100" src="/img/service/modern/service-1.jpg" alt="service image">
+                        <img class="w-100" :src="$router.options.base+'img/service/modern/service-1.jpg'" alt="service image">
                     </div>
                 </div>
             </div>

@@ -13,14 +13,14 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="thumbnail space_decLeft--170">
-                            <img src="/img/about/home-product-landing-image-01.jpg" alt="Multipurpose">
+                            <img :src="$router.options.base+'img/about/home-product-landing-image-01.jpg'" alt="Multipurpose">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="home-decoration-inner">
                             <div class="content">
                                 <div class="icon mb--60 wow move-up">
-                                    <img src="/img/about/landing-icon.png" alt="Multipurpose">
+                                    <img :src="$router.options.base+'img/about/landing-icon.png'" alt="Multipurpose">
                                 </div>
                                 <h3 class="heading heading-h3 wow move-up">Home decoration.</h3>
                                 <div class="content mt--20 mb--65">
@@ -88,7 +88,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 mt_sm--40">
                         <div class="thumbnail text-center text-md-right wow move-up">
-                            <img src="/img/about/home-product-landing-image-02.jpg" alt="Multipurpose">
+                            <img :src="$router.options.base+'img/about/home-product-landing-image-02.jpg'" alt="Multipurpose">
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-12">
                         <div class="thumbnail wow move-up">
-                            <img src="/img/about/home-product-landing-image-03.jpg" alt="Multipurpose">
+                            <img :src="$router.options.base+'img/about/home-product-landing-image-03.jpg'" alt="Multipurpose">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">

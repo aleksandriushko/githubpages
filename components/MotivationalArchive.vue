@@ -60,7 +60,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--40">
                 <div class="motivational-thumbnail">
-                    <img src="/img/about/home-digital-agency-image-01.png" alt="Multipurpose">
+                    <img :src="$router.options.base+'img/about/home-digital-agency-image-01.png'" alt="Multipurpose">
                 </div>
             </div>
         </div>

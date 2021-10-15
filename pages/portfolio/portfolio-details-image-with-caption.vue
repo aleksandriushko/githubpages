@@ -61,7 +61,7 @@
                         <div class="portfolio-right portfolio-details-gallery text-center text-md-right">
                             <!-- Start Portfolio Image -->
                             <div class="portfolio-image mb--50">
-                                <img class="w-100" src="/img/portfolio/big-image/caption-1.jpg" alt="portfolio">
+                                <img class="w-100" :src="$router.options.base+'img/portfolio/big-image/caption-1.jpg'" alt="portfolio">
                                 <div class="cation-text ptb--20 bg_color--5 text-center">
                                     <p class="bk_pra">Bring natural plants into your interiors</p>
                                 </div>
@@ -70,7 +70,7 @@
 
                             <!-- Start Portfolio Image -->
                             <div class="portfolio-image mb--50">
-                                <img class="w-100" src="/img/portfolio/big-image/caption-2.jpg" alt="portfolio">
+                                <img class="w-100" :src="$router.options.base+'img/portfolio/big-image/caption-2.jpg'" alt="portfolio">
                                 <div class="cation-text ptb--20 bg_color--5 text-center">
                                     <p class="bk_pra">Natural light and it's importance on your health</p>
                                 </div>
@@ -79,7 +79,7 @@
 
                             <!-- Start Portfolio Image -->
                             <div class="portfolio-image">
-                                <img class="w-100" src="/img/portfolio/big-image/caption-3.jpg" alt="portfolio">
+                                <img class="w-100" :src="$router.options.base+'img/portfolio/big-image/caption-3.jpg'" alt="portfolio">
                                 <div class="cation-text ptb--20 bg_color--5 text-center">
                                     <p class="bk_pra">Bring natural light into your interiors as a design element</p>
                                 </div>

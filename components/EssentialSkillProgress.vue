@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-5 col-lg-6">
                     <div class="progress-thumbnail wow move-up text-lg-left text-center animate">
-                        <img src="/img/about/home-essential-image-01.jpg" alt="Multipurpose">
+                        <img :src="$router.options.base+'img/about/home-essential-image-01.jpg'" alt="Multipurpose">
                     </div>
                 </div>
                 <div class="col-xl-6 offset-xl-1 col-lg-6 plr_md--50 plr_sm--50 mt_md--30 mt_sm--30">

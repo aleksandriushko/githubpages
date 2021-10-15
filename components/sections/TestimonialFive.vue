@@ -16,22 +16,22 @@
                                     <swiper class="swiper gallery-thumbs" :options="swiperOptionThumbs" ref="swiperThumbs">
                                         <!-- Start Single Thumb -->
                                         <div class="clint-thumb swiper-slide">
-                                            <img src="/img/testimonial/clint-3/avata-01.png" alt="testimonial images">
+                                            <img :src="$router.options.base+'img/testimonial/clint-3/avata-01.png'" alt="testimonial images">
                                         </div>
 
                                         <!-- Start Single Thumb -->
                                         <div class="clint-thumb swiper-slide">
-                                            <img src="/img/testimonial/clint-3/avata-02.png" alt="testimonial images">
+                                            <img :src="$router.options.base+'img/testimonial/clint-3/avata-02.png'" alt="testimonial images">
                                         </div>
 
                                         <!-- Start Single Thumb -->
                                         <div class="clint-thumb swiper-slide">
-                                            <img src="/img/testimonial/clint-3/avata-03.png" alt="testimonial images">
+                                            <img :src="$router.options.base+'img/testimonial/clint-3/avata-03.png'" alt="testimonial images">
                                         </div>
 
                                         <!-- Start Single Thumb -->
                                         <div class="clint-thumb swiper-slide">
-                                            <img src="/img/testimonial/clint-3/avata-01.png" alt="testimonial images">
+                                            <img :src="$router.options.base+'img/testimonial/clint-3/avata-01.png'" alt="testimonial images">
                                         </div>
                                     </swiper>
                                 </div>

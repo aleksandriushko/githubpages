@@ -113,7 +113,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="thumbnail">
-                            <img src="/img/about/home-landing-image-04.png" alt="multipurpose">
+                            <img :src="$router.options.base+'img/about/home-landing-image-04.png'" alt="multipurpose">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">

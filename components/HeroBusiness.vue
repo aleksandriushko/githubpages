@@ -15,7 +15,7 @@
                     <div class="hero-bottom-content">
                         <a href="javascript:void(0)" class="scroll-more">
                             <h6>Scroll for more</h6>
-                            <img src="/img/slider/mouse-icon.png" alt="icon">
+                            <img :src="$router.options.base+'img/slider/mouse-icon.png'" alt="icon">
                         </a>
                         <div class="video-btn">
                             Watch video
@@ -39,7 +39,7 @@
                     <div class="hero-bottom-content">
                         <a href="#service" class="scroll-more">
                             <h6>Scroll for more</h6>
-                            <img src="/img/slider/mouse-icon.png" alt="icon">
+                            <img :src="$router.options.base+'img/slider/mouse-icon.png'" alt="icon">
                         </a>
                         <div class="video-btn">
                             Watch video
@@ -63,7 +63,7 @@
                     <div class="hero-bottom-content">
                         <a href="#service" class="scroll-more">
                             <h6>Scroll for more</h6>
-                            <img src="/img/slider/mouse-icon.png" alt="icon">
+                            <img :src="$router.options.base+'img/slider/mouse-icon.png'" alt="icon">
                         </a>
                         <div class="video-btn">
                             Watch video

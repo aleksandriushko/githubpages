@@ -15,7 +15,7 @@
                     <div class="cloud-mixtabs-audio">
                         <div class="audio-post-inner bg_color--1 mt--30 wow move-up">
                             <div class="thumbnail">
-                                <img src="/img/about/audio-1.jpg" alt="Multipurpose">
+                                <img :src="$router.options.base+'img/about/audio-1.jpg'" alt="Multipurpose">
                             </div>
                             <div class="audio-post">
                                 <iframe class="w-100" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/445457568&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -24,7 +24,7 @@
 
                         <div class="audio-post-inner bg_color--1 mt--30 wow move-up">
                             <div class="thumbnail">
-                                <img src="/img/about/audio-2.jpg" alt="Multipurpose">
+                                <img :src="$router.options.base+'img/about/audio-2.jpg'" alt="Multipurpose">
                             </div>
                             <div class="audio-post">
                                 <iframe class="w-100" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/226321337&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -33,7 +33,7 @@
 
                         <div class="audio-post-inner bg_color--1 mt--30 wow move-up">
                             <div class="thumbnail">
-                                <img src="/img/about/audio-3.jpg" alt="Multipurpose">
+                                <img :src="$router.options.base+'img/about/audio-3.jpg'" alt="Multipurpose">
                             </div>
                             <div class="audio-post">
                                 <iframe class="w-100" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/227186939&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>

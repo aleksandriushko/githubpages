@@ -8,7 +8,7 @@
                         <div class="footer-widget text-var--2">
                             <div class="logo">
                                 <n-link to="">
-                                    <img src="/img/logo/brook-white2.png" alt="brand logo">
+                                    <img :src="$router.options.base+'img/logo/brook-white2.png'" alt="brand logo">
                                 </n-link>
                             </div>
                             <div class="footer-inner">
