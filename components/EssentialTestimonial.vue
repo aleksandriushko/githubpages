@@ -1,5 +1,5 @@
 <template>
-    <div class="brook-testimonial-area ptb--150 ptb-md--80 ptb-sm--60 bg_image--60" :style="{ backgroundImage:`url('/img/bg/bg-image-60.jpg')` }">
+    <div class="brook-testimonial-area ptb--150 ptb-md--80 ptb-sm--60 bg_image--60" :style="{ backgroundImage:`url('${$router.options.base}img/bg/bg-image-60.jpg')` }">
         <div class="container">
             <div class="row">
                 <div class="col-12">

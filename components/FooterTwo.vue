@@ -147,37 +147,37 @@
                 instagramPosts: [
                     {
                         "id": 1,
-                        "image": "/img/instagram/instagram-1.jpg",
+                        "image": this.$router.options.base+"img/instagram/instagram-1.jpg",
                         "like": "1K",
                         "comment": "8"
                     },
                     {
                         "id": 2,
-                        "image": "/img/instagram/instagram-2.jpg",
+                        "image": this.$router.options.base+"img/instagram/instagram-2.jpg",
                         "like": "6K",
                         "comment": "9"
                     },
                     {
                         "id": 3,
-                        "image": "/img/instagram/instagram-3.jpg",
+                        "image": this.$router.options.base+"img/instagram/instagram-3.jpg",
                         "like": "3K",
                         "comment": "4"
                     },
                     {
                         "id": 4,
-                        "image": "/img/instagram/instagram-4.jpg",
+                        "image": this.$router.options.base+"img/instagram/instagram-4.jpg",
                         "like": "1K",
                         "comment": "3"
                     },
                     {
                         "id": 5,
-                        "image": "/img/instagram/instagram-5.jpg",
+                        "image": this.$router.options.base+"img/instagram/instagram-5.jpg",
                         "like": "2K",
                         "comment": "7"
                     },
                     {
                         "id": 6,
-                        "image": "/img/instagram/instagram-6.jpg",
+                        "image": this.$router.options.base+"img/instagram/instagram-6.jpg",
                         "like": "1K",
                         "comment": "8"
                     }

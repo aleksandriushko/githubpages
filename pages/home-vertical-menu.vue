@@ -17,7 +17,7 @@
             <!-- End Verical Slider Area -->
 
             <!-- Start What We Do Area -->
-            <div class="brook-what-we-do-area vertical-what-do-area bg_image--49" :style="{ backgroundImage: `url('/img/bg/bg-image-49.jpg')` }">
+            <div class="brook-what-we-do-area vertical-what-do-area bg_image--49" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-49.jpg')` }">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-12">
                         <div class="creative-what-do-inner">
@@ -81,7 +81,7 @@
             <!-- End What We Do Area -->
 
             <!-- Start Creative People Area -->
-            <div class="creative-people-area bg_image--50 ptb--200 ptb-md--80 ptb-sm--80" :style="{backgroundImage: `url('/img/bg/bg-image-50.jpg')`}">
+            <div class="creative-people-area bg_image--50 ptb--200 ptb-md--80 ptb-sm--80" :style="{backgroundImage: `url('${$router.options.base}img/bg/bg-image-50.jpg')`}">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-12">
@@ -159,7 +159,7 @@
             <!-- End Progress Charts Area -->
 
             <!-- Start Testimonial Area -->
-            <div class="brook-testimonial-area ptb--150 ptb-md--80 ptb-sm--80 bg_image--51" :style="{backgroundImage: `url('/img/bg/bg-image-51.jpg')`}">
+            <div class="brook-testimonial-area ptb--150 ptb-md--80 ptb-sm--80 bg_image--51" :style="{backgroundImage: `url('${$router.options.base}img/bg/bg-image-51.jpg')`}">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">

@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="col-xl-5">
-                <div class="clint-succeed bg_image--24 ptb--220 ptb-md--80 ptb-lg--80 ptb_lp--130 ptb-sm--60" data-black-overlay="9" :style="{ backgroundImage: `url('/img/bg/bg-image-24.jpg')` }">
+                <div class="clint-succeed bg_image--24 ptb--220 ptb-md--80 ptb-lg--80 ptb_lp--130 ptb-sm--60" data-black-overlay="9" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-24.jpg')` }">
                     <div class="row align-items-center plr_md--40 plr_sm--40">
                         <div class="col-lg-4">
                             <!-- Start Single Popup -->

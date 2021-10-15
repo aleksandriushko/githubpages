@@ -7,7 +7,7 @@
 
         <SearchPopup />
 
-        <div class="breadcrumb-area pt--250 pb--340 pt_md--150 pb_md--150 pt_sm--150 pb_sm--150  bg_image--56 breadcrumb-title-bar breadcrumb-title-white" data-black-overlay="2" :style="{ backgroundImage: `url('/img/bg/bg-image-56.jpg')` }">
+        <div class="breadcrumb-area pt--250 pb--340 pt_md--150 pb_md--150 pt_sm--150 pb_sm--150  bg_image--56 breadcrumb-title-bar breadcrumb-title-white" data-black-overlay="2" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-56.jpg')` }">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">

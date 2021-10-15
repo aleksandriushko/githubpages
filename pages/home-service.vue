@@ -155,7 +155,7 @@
         <!-- End Feature Area -->
 
         <!-- Start Newsletter Area -->
-        <div class="brook-newsletter-area bg_image--5 ptb--150 ptb-md--80 ptb-sm--80" :style="{ backgroundImage: `url('/img/bg/bg-image-5.jpg')` }">
+        <div class="brook-newsletter-area bg_image--5 ptb--150 ptb-md--80 ptb-sm--80" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-5.jpg')` }">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">

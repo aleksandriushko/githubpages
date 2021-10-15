@@ -8,7 +8,7 @@
         <SearchPopup />
 
         <!-- Start Hero Slider Area -->
-        <div class="hero-item hero-item-corona" :style="{ backgroundImage: `url('/img/corona/slider.jpg')` }">
+        <div class="hero-item hero-item-corona" :style="{ backgroundImage: `url('${$router.options.base}img/corona/slider.jpg')` }">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -84,7 +84,7 @@
         <!-- End Contagion Area -->
 
         <!-- About Coronavirus Area Start -->
-        <div class="about-coronvirus-area bg_image--137 pt--90 pt_md--70 pt_sm--60 pb--80 pb_md--40 pb_sm--50" :style="{ backgroundImage: `url('/img/bg/bg-image-137.jpg')` }">
+        <div class="about-coronvirus-area bg_image--137 pt--90 pt_md--70 pt_sm--60 pb--80 pb_md--40 pb_sm--50" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-137.jpg')` }">
             <div class="container-fluid plr--220 plr_lp--15 plr_lg--15 plr_md--15 plr_sm--15">
                 <div class="row align-items-center">
                     <div class="col-xl-5 col-lg-6 wow move-up animate">
@@ -331,7 +331,7 @@
         <!-- Coronavirus World Map Area Start -->
 
         <!-- Prevenetion of Area Start -->
-        <div class="prevenation-area bg_image--138 pt--110 pt_md--70 pt_sm--50 pb--40 pb_md--70 pb_sm--60" :style="{ backgroundImage: `url('/img/bg/bg-image-138.jpg')` }">
+        <div class="prevenation-area bg_image--138 pt--110 pt_md--70 pt_sm--50 pb--40 pb_md--70 pb_sm--60" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-138.jpg')` }">
             <div class="container-fluid plr--220 plr_lp--15 plr_lg--15 plr_md--15 plr_sm--15">
                 <div class="row align-items-center">
                     <div class="col-lg-7 col-md-12">
@@ -497,7 +497,7 @@
 
         <!-- Hand Wash Area Start -->
         <div class="hand-wash-section pb--120 pb_md--80 pb_sm--60">
-            <div class="container bg_image--139 bg-image" :style="{ backgroundImage: `url('/img/bg/bg-image-139.jpg')` }">
+            <div class="container bg_image--139 bg-image" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-139.jpg')` }">
                 <div class="row pt--90 pt_md--50 pt_sm--50 pb--30">
                     <div class="offset-xl-1 col-xl-10">
                         <div class="row">
@@ -715,7 +715,7 @@
 
 <style lang="scss" scoped>
     .single-symptom {
-        background: url('../static/img/corona/design.png');
+        background: url('../static${$router.options.base}img/corona/design.png');
         background-color: #F9F2FF;
         background-position: right;
         background-repeat: no-repeat;

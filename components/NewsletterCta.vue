@@ -1,5 +1,5 @@
 <template>
-    <div class="brook-call-to-action bg_color--13 ptb--70 bg-as-text2" :style="{ backgroundImage: `url('/img/icons/text2.png')` }">
+    <div class="brook-call-to-action bg_color--13 ptb--70 bg-as-text2" :style="{ backgroundImage: `url('${$router.options.base}img/icons/text2.png')` }">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-12 col-12">

@@ -14,7 +14,7 @@
 
             <HeroMinimalAgency />
 
-            <div class="brook-about-area bg_image--26 ptb--130 ptb-md--80 ptb-sm--60" :style="{backgroundImage: `url('/img/bg/bg-image-26.jpg')`}">
+            <div class="brook-about-area bg_image--26 ptb--130 ptb-md--80 ptb-sm--60" :style="{backgroundImage: `url('${$router.options.base}img/bg/bg-image-26.jpg')`}">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">

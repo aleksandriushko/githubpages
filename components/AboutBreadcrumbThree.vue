@@ -1,5 +1,5 @@
 <template>
-    <div class="brook-breadcrumb-area bg_image--12 fullscreen breadcrumb-title-bar breadcrumb-title-white d-flex align-items-center pt_md--70 pt_sm--100 pb_sm--50" data-black-overlay="6" :style="{ backgroundImage: `url('/img/bg/bg-image-12.jpg')` }">
+    <div class="brook-breadcrumb-area bg_image--12 fullscreen breadcrumb-title-bar breadcrumb-title-white d-flex align-items-center pt_md--70 pt_sm--100 pb_sm--50" data-black-overlay="6" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-12.jpg')` }">
         <div class="container-fluid plr--180 plr_lg--100 plr_md--30 plr_sm--15">
             <div class="row align-items-center">
                 <div class="col-xl-6">

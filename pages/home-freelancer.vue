@@ -8,7 +8,7 @@
 
         <SearchPopup />
 
-        <div class="freelancer-wrapper bg_image--27" :style="{ backgroundImage: `url('/img/bg/bg-image-27.jpg')` }">
+        <div class="freelancer-wrapper bg_image--27" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-27.jpg')` }">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="freelancer-left">

@@ -1,5 +1,5 @@
 <template>
-    <div class="error404 bg-cover" :style="{ backgroundImage: `url('/img/bg/bg-image-124.jpg')` }">
+    <div class="error404 bg-cover" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-124.jpg')` }">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">

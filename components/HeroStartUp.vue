@@ -1,5 +1,5 @@
 <template>
-    <div class="hero-startup bg-cover" :style="{ backgroundImage: `url('/img/slider/start-ups-slide-01.jpg')` }">
+    <div class="hero-startup bg-cover" :style="{ backgroundImage: `url('${$router.options.base}img/slider/start-ups-slide-01.jpg')` }">
         <div class="container">
             <div class="row">
                 <div class="col-12">

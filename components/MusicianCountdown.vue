@@ -1,5 +1,5 @@
 <template>
-    <div class="countdown-area bg_image--52 ptb--200 ptb-md--80 ptb-sm--80" data-heading-overlay="9" :style="{backgroundImage: `url('/img/bg/bg-image-52.jpg')`}">
+    <div class="countdown-area bg_image--52 ptb--200 ptb-md--80 ptb-sm--80" data-heading-overlay="9" :style="{backgroundImage: `url('${$router.options.base}img/bg/bg-image-52.jpg')`}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">

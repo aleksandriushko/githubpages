@@ -49,28 +49,28 @@
                         category: "Digital",
                         heading: "Enchanting Portrait Hacks",
                         btnUrl: "/portfolio/portfolio-details",
-                        bgImage: "/img/bg/bg-image-29.jpg"
+                        bgImage: this.$router.options.base+"img/bg/bg-image-29.jpg"
                     },
                     {
                         id: 2,
                         category: "Marketing",
                         heading: "Graphic Design Decoding",
                         btnUrl: "/portfolio/portfolio-details",
-                        bgImage: "/img/bg/bg-image-30.jpg"
+                        bgImage: this.$router.options.base+"img/bg/bg-image-30.jpg"
                     },
                     {
                         id: 3,
                         category: "Design",
                         heading: "Graphic Design Decoding",
                         btnUrl: "/portfolio/portfolio-details",
-                        bgImage: "/img/bg/bg-image-31.jpg"
+                        bgImage: this.$router.options.base+"img/bg/bg-image-31.jpg"
                     },
                     {
                         id: 4,
                         category: "Photography",
                         heading: "Enchanting Portrait Hacks",
                         btnUrl: "/portfolio/portfolio-details",
-                        bgImage: "/img/bg/bg-image-32.jpg"
+                        bgImage: this.$router.options.base+"img/bg/bg-image-32.jpg"
                     }
                 ]
             }

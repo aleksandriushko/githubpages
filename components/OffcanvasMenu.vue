@@ -1,6 +1,6 @@
 <template>
     <!-- Start Hamberger Menu -->
-    <div class="open-hamberger-wrapper d-none d-lg-block" id="popup-fullscreen-menu" :style="{ backgroundImage: `url('/img/bg/bg-image-28.jpg')` }">
+    <div class="open-hamberger-wrapper d-none d-lg-block" id="popup-fullscreen-menu" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-28.jpg')` }">
         <div class="page-close light-version" @click="togglePopupMenu('removeClass', 'is-visiable')"></div>
         <div class="header-default light-logo--version poss_relative">
             <div class="mainmenu-wrapper">

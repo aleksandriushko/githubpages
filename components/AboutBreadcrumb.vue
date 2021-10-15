@@ -1,5 +1,5 @@
 <template>
-    <div class="breadcrumb-area bg_image--11 ptb--270 breadcrumb-title-bar breadcrumb-title-white" :style="{ backgroundImage: `url('/img/bg/bg-image-11.jpg')` }">
+    <div class="breadcrumb-area bg_image--11 ptb--270 breadcrumb-title-bar breadcrumb-title-white" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-11.jpg')` }">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

@@ -67,7 +67,7 @@
         <!-- End Call To Action -->
 
         <!-- Start Call To Action -->
-        <div class="brook-call-to-action bg_image--9 ptb--70" :style="{backgroundImage: `url('/img/bg/bg-image-9.jpg')`}">
+        <div class="brook-call-to-action bg_image--9 ptb--70" :style="{backgroundImage: `url('${$router.options.base}img/bg/bg-image-9.jpg')`}">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-6 col-12">
@@ -140,7 +140,7 @@
         <!-- End Call To Action -->
 
         <!-- Start Call To Action -->
-        <div class="brook-call-to-action bg_image--10 ptb--120 ptb-md--80 ptb-sm--60" data-black-overlay="5" :style="{ backgroundImage: `url('/img/bg/bg-image-10.jpg')`}">
+        <div class="brook-call-to-action bg_image--10 ptb--120 ptb-md--80 ptb-sm--60" data-black-overlay="5" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-10.jpg')`}">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12 col-12">
@@ -158,7 +158,7 @@
         <!-- End Call To Action -->
 
         <!-- Start Call To Action -->
-        <div class="brook-call-to-action bg_image--10 ptb--120 ptb-md--80 ptb-sm--60" data-overlay="8" :style="{ backgroundImage: `url('/img/bg/bg-image-10.jpg')`}">
+        <div class="brook-call-to-action bg_image--10 ptb--120 ptb-md--80 ptb-sm--60" data-overlay="8" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-10.jpg')`}">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12 col-12">

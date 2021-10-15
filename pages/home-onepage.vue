@@ -26,7 +26,7 @@
 
         <TestimonialSix />
 
-        <div class="brook-call-to-action bg_image--33 ptb--70 ptb-md--80 ptb-sm--80" :style="{backgroundImage: `url('/img/bg/bg-image-33.jpg')`}">
+        <div class="brook-call-to-action bg_image--33 ptb--70 ptb-md--80 ptb-sm--80" :style="{backgroundImage: `url('${$router.options.base}img/bg/bg-image-33.jpg')`}">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
@@ -52,7 +52,7 @@
 
         <BrandLogoCarousel />
 
-        <div class="bg_image--34 ptb--130 ptb-md--80 ptb-sm--80" :style="{backgroundImage: `url('/img/bg/bg-image-34.jpg')`}">
+        <div class="bg_image--34 ptb--130 ptb-md--80 ptb-sm--80" :style="{backgroundImage: `url('${$router.options.base}img/bg/bg-image-34.jpg')`}">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-12 col-12">

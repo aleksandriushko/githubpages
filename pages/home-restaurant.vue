@@ -120,7 +120,7 @@
             <!-- Start Food Menu Area -->
             <div class="food-menu-area">
                 <div class="container">
-                    <div class="row no-gutters left-bg-image" :style="{ backgroundImage: `url('/img/restaurant/home-restaurant-menus-lunch-set.jpg')` }">
+                    <div class="row no-gutters left-bg-image" :style="{ backgroundImage: `url('${$router.options.base}img/restaurant/home-restaurant-menus-lunch-set.jpg')` }">
                         <div class="col-lg-6">
                         </div>
                         <div class="col-lg-6">
@@ -184,7 +184,7 @@
             <!-- Start Food Menu Area -->
             <div class="food-menu-area pt--280 pt_md--240 pt_sm--220 pb--160 pb_md--80 pb_sm--10">
                 <div class="container">
-                    <div class="row no-gutters right-bg-image" :style="{ backgroundImage: `url('/img/restaurant/home-restaurant-menus-starters-set.jpg')` }">
+                    <div class="row no-gutters right-bg-image" :style="{ backgroundImage: `url('${$router.options.base}img/restaurant/home-restaurant-menus-starters-set.jpg')` }">
                         <div class="col-lg-6">
                             <div class="food-menu-wrap content-top">
                                 <div class="brook-section-title-restaurant text-center mb--50">
@@ -246,7 +246,7 @@
             <!-- End Food Menu Area -->
 
             <!-- Start Book Table Area -->
-            <div class="book-table-area bg_image--62 pt--100 pt_md--80 pt_sm--60" :style="{ backgroundImage: `url('/img/bg/bg-image-62.jpg')` }">
+            <div class="book-table-area bg_image--62 pt--100 pt_md--80 pt_sm--60" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-62.jpg')` }">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">

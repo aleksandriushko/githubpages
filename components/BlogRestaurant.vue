@@ -1,5 +1,5 @@
 <template>
-    <div class="blog-post-area blog-bg-image pt--250 pb--100 pb_sm--40" :style="{ backgroundImage: `url('/img/bg/bg-image-63.jpg')` }">
+    <div class="blog-post-area blog-bg-image pt--250 pb--100 pb_sm--40" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-63.jpg')` }">
         <div class="container">
             <div class="row">
                 <div class="col-12">

@@ -1,5 +1,5 @@
 <template>
-    <div class="bk-motivational-archive bg_image--7 digital-motivational plr_md--30 plr_sm--30 plr_lg--30" :style="{ backgroundImage: `url('/img/bg/bg-image-7.jpg')` }">
+    <div class="bk-motivational-archive bg_image--7 digital-motivational plr_md--30 plr_sm--30 plr_lg--30" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-7.jpg')` }">
         <!-- Start Video Area -->
         <div class="container">
             <div class="row">

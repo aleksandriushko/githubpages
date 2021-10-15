@@ -151,7 +151,7 @@
         <!-- End Cube Lanter Area -->
 
         <!-- Start Newsletter Area -->
-        <div class="bk-newsletter-area bg_image--35 ptb--150 ptb-lg--100 ptb-md--80 ptb-sm--80" :style="{ backgroundImage: `url('/img/bg/bg-image-35.jpg')` }">
+        <div class="bk-newsletter-area bg_image--35 ptb--150 ptb-lg--100 ptb-md--80 ptb-sm--80" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-35.jpg')` }">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">

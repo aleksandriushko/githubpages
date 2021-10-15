@@ -1,5 +1,5 @@
 <template>
-    <div class="brook-video-area bg_color--1 pb--130 pb_md--80 pb_sm--60 bg-as-text" :style="{ backgroundImage: `url('/img/icons/text.png')` }">
+    <div class="brook-video-area bg_color--1 pb--130 pb_md--80 pb_sm--60 bg-as-text" :style="{ backgroundImage: `url('${$router.options.base}img/icons/text.png')` }">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">

@@ -48,31 +48,31 @@
                         id: 1,
                         title: "B-sharp High-end Audio",
                         category: "Design",
-                        coverImage: "/img/bg/bg-image-45.jpg"
+                        coverImage: this.$router.options.base+"img/bg/bg-image-45.jpg"
                     },
                     {
                         id: 2,
                         title: "Enchanting Portrait Hacks",
                         category: "Digital",
-                        coverImage: "/img/bg/bg-image-46.jpg"
+                        coverImage: this.$router.options.base+"img/bg/bg-image-46.jpg"
                     },
                     {
                         id: 3,
                         title: "Digital Marketing Basics",
                         category: "Design",
-                        coverImage: "/img/bg/bg-image-47.jpg"
+                        coverImage: this.$router.options.base+"img/bg/bg-image-47.jpg"
                     },
                     {
                         id: 4,
                         title: "Measure Digital Progress",
                         category: "Life Style",
-                        coverImage: "/img/bg/bg-image-48.jpg"
+                        coverImage: this.$router.options.base+"img/bg/bg-image-48.jpg"
                     },
                     {
                         id: 5,
                         title: "Graphic Design Decoding",
                         category: "Digital",
-                        coverImage: "/img/bg/bg-image-46.jpg"
+                        coverImage: this.$router.options.base+"img/bg/bg-image-46.jpg"
                     },
                 ]
             }

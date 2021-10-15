@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="bk-stratagy-thumb bg_image--25 ptb--180 h-100" :style="{ backgroundImage: `url('/img/bg/bg-image-25.jpg')` }">
+                <div class="bk-stratagy-thumb bg_image--25 ptb--180 h-100" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-25.jpg')` }">
                 </div>
             </div>
         </div>

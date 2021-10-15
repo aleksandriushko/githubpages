@@ -41,7 +41,7 @@
 
         <ContactUsThree />
 
-        <div class="brook-call-to-action bg_image--61 ptb--120 ptb-md--80 ptb-sm--60" :style="{ backgroundImage:`url('/img/bg/bg-image-61.jpg')` }">
+        <div class="brook-call-to-action bg_image--61 ptb--120 ptb-md--80 ptb-sm--60" :style="{ backgroundImage:`url('${$router.options.base}img/bg/bg-image-61.jpg')` }">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12 col-12">

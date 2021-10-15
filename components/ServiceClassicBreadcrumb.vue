@@ -1,5 +1,5 @@
 <template>
-    <div class="brook-breadcrumb-area bg_image--16 ptb--270 pt_md--190 pb_md--100 pt_sm--190 pb_sm--100 breadcrumb-title-bar" data-black-overlay='8' :style="{ backgroundImage: `url('/img/bg/bg-image-16.jpg')` }">
+    <div class="brook-breadcrumb-area bg_image--16 ptb--270 pt_md--190 pb_md--100 pt_sm--190 pb_sm--100 breadcrumb-title-bar" data-black-overlay='8' :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-16.jpg')` }">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
