@@ -26,10 +26,7 @@ and run command
 $ npm run generate
 ```
 It will create a dist folder with everything inside ready to be deployed on GitHub Pages hosting
-and run command
-``` bash
-$ npm run generate
-```
+
 then need add and commit the dist folder
 ``` bash
 git add dist && git commit -m "Initial dist subtree commit demo-brook-vue-theme"
