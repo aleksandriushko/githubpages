@@ -1,5 +1,5 @@
 export default {
-    mode: 'universal',
+    ssr: false,
 
     generate: {
         fallback: true
@@ -59,6 +59,7 @@ export default {
         'bootstrap-vue/nuxt',
         '@nuxtjs/style-resources',
         ['@nuxtjs/google-tag-manager', { id: 'GTM-MJXQWHD' }],
+        
     ],
 
     styleResources: {
@@ -77,6 +78,15 @@ export default {
         */
         extend (config, ctx) {
         },
-        transpile: [/^vue2-google-maps($|\/)/]
+        transpile: [/^vue2-google-maps($|\/)/],
+
+        babel: {
+            compact: true,
+        },
     },
+
+    target: 'static',
+    router: {
+        base: '/'
+    }
 }
