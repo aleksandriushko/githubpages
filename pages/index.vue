@@ -8,7 +8,7 @@
 
         <SearchPopup />
 
-        <HeroStartUp />
+        <HeroEssential />
 
         <FeatureStartUp />
 
@@ -34,10 +34,10 @@
             HeaderBlack: () => import('@/components/HeaderBlack'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             SearchPopup: () => import('@/components/SearchPopup'),
-            HeroStartUp: () => import('@/components/HeroStartUp'),
+            HeroEssential: () => import('@/components/custom/HeroEssential'),
             FeatureStartUp: () => import('@/components/sections/FeatureStartUp'),
             WhatWeDo: () => import('@/components/WhatWeDo'),
-            EffectiveSolution: () => import('@/components/EffectiveSolution'),
+            EffectiveSolution: () => import('@/components/custom/EffectiveSolution'),
             StartUpStratagy: () => import('@/components/sections/StartUpStratagy'),
             PortfolioItemFilter: () => import('@/components/sections/PortfolioItemFilter'),
             NewsletterCta: () => import('@/components/NewsletterCta'),

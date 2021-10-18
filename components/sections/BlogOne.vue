@@ -1,6 +1,6 @@
 <template>
     <div class="bk-blog-area">
-        <div class="black-bg-wrapper bg_image--4 section-pt-xl pb--320" :style="{ backgroundImage: `url('/img/bg/bg-image-4.jpg')` }">
+        <div class="black-bg-wrapper bg_image--4 section-pt-xl pb--320" :style="{ backgroundImage: `url('${$router.options.base}img/bg/bg-image-4.jpg')` }">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">

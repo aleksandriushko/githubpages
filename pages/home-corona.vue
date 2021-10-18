@@ -715,7 +715,7 @@
 
 <style lang="scss" scoped>
     .single-symptom {
-        background: url('../static${$router.options.base}img/corona/design.png');
+        background: url('../static/img/corona/design.png');
         background-color: #F9F2FF;
         background-position: right;
         background-repeat: no-repeat;
