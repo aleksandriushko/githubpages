@@ -40,3 +40,34 @@ then need to activate the gh-pages branch on the github
 2) Click on Pages - https://prnt.sc/1w8um2o
 3) Click on Source > gh-pages - https://prnt.sc/1w8vekx
 and click save
+
+## add content for Home, About Us, Services, Portfolio, Contact
+create pages:
+/pages/about-us.vue
+/pages/contact-us.vue
+/pages/portfolio.vue
+/pages/services.vue
+create components:
+/components/custom/ContactModern.vue
+/components/custom/ContactUsBreadcrumb.vue
+/components/custom/EffectiveSolution.vue
+/components/custom/HeaderBlack.vue
+/components/custom/HeroEssential.vue
+/components/custom/Navigation.vue
+/components/custom/ServiceModern.vue
+/components/custom/ServiceModernBreadcrumb.vue
+/components/custom/WhatNext.vue
+upload images in /static/images
+
+create commit for demo-stratup branch
+switch branch on gh-pages
+run command: 
+``` bash
+$ npm run generate
+```
+update gh-pages in GitHub
+``` bash
+git push origin `git subtree split --prefix dist master`:gh-pages --force
+git subtree push --prefix dist origin gh-pages
+```
+select gh-pages branch on GitHub Pages

@@ -144,7 +144,7 @@
         margin-top: -25px;
         width: 22vh;
         max-width: 180px;
-        background-image: url(/images/app/slider-right-bg.svg);
+        background-image: url(/demo-brook-vue-theme/images/app/slider-right-bg.svg);
         background-size: cover;
         background-repeat: no-repeat;
         left: 47%;

@@ -138,11 +138,11 @@
                             <div class="col-lg-4">
                                 <div class="card-style-1 mb-40" :style="`background-image: url(${$router.options.base}images/content-blocks/content-image-6-1.jpeg)`">
                                     <div class="video-content move-up wow mt-4 bg-overlay">
-                                        <h5 class="heading heading-h3 line-height-1-42 text-white">CREATIVE</h5>
-                                        <div class="bkseparator--25"></div>
-                                        <p class="bk_pra text-white">Creeping The Holiday Spirit Alive!</p>
+                                        <h6 class="heading heading-h3 line-height-1-42 text-white">CREATIVE</h6>
+                                        <div class="bkseparator--10"></div>
+                                        <h4 class="bk_pra text-white">Creeping The Holiday Spirit Alive!</h4>
                                         <div class="bkseparator--40"></div>
-                                        <n-link to="/about-us-01" class="moredetails-btn yellow-color-2 mb-40 btn-style-1">
+                                        <n-link to="/about-us-01" class="moredetails-btn yellow-color-2 mb-4 btn-style-1">
                                             <span>Read More</span> 
                                         </n-link>
                                     </div>
@@ -151,11 +151,11 @@
                             <div class="col-lg-4">
                                 <div class="card-style-1 mb-40" :style="`background-image: url(${$router.options.base}images/content-blocks/content-image-6-2.jpeg)`">
                                     <div class="video-content move-up wow mt-4 bg-overlay">
-                                        <h5 class="heading heading-h3 line-height-1-42 text-white">CREATIVE</h5>
-                                        <div class="bkseparator--25"></div>
-                                        <p class="bk_pra text-white">5 Chrome Extensions To Speed Up Your UX Workflow</p>
+                                        <h6 class="heading heading-h3 line-height-1-42 text-white">CREATIVE</h6>
+                                        <div class="bkseparator--10"></div>
+                                        <h4 class="bk_pra text-white">5 Chrome Extensions To Speed Up Your UX Workflow</h4>
                                         <div class="bkseparator--40"></div>
-                                        <n-link to="/about-us-01" class="moredetails-btn yellow-color-2 mb-40 btn-style-1">
+                                        <n-link to="/about-us-01" class="moredetails-btn yellow-color-2 mb-4 btn-style-1">
                                             <span>Read More</span> 
                                         </n-link>
                                     </div>
@@ -165,11 +165,11 @@
                             <div class="col-lg-4">
                                 <div class="card-style-1 mb-40" :style="`background-image: url(${$router.options.base}images/content-blocks/content-image-6-3.jpeg)`">
                                     <div class="video-content move-up wow mt-4 bg-overlay">
-                                        <h5 class="heading heading-h3 line-height-1-42 text-white">CREATIVE</h5>
-                                        <div class="bkseparator--25"></div>
-                                        <p class="bk_pra text-white">Raising The Bar On Beverage Marketing</p>
+                                        <h6 class="heading heading-h3 line-height-1-42 text-white">CREATIVE</h6>
+                                        <div class="bkseparator--10"></div>
+                                        <h4 class="bk_pra text-white">Raising The Bar On Beverage Marketing</h4>
                                         <div class="bkseparator--40"></div>
-                                        <n-link to="/about-us-01" class="moredetails-btn yellow-color-2 mb-40 btn-style-1">
+                                        <n-link to="/about-us-01" class="moredetails-btn yellow-color-2 mb-4 btn-style-1">
                                             <span>Read More</span> 
                                         </n-link>
                                     </div>
@@ -181,30 +181,8 @@
                     <div class="col-lg-1">
                     </div>
                 </div>
-
             </div>
         </div>
-
-        <div class="gradient-3 brook-video-area pb_md--80 pb_sm--60 bg-as-text smile text-center block-7">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 mt_md--40 mt_sm--40">
-                        <div class="video-content move-up wow mt-4 mb-40">
-                            <h5 class="heading heading-h3 line-height-1-42 text-white">WHAT'S NEXT?</h5>
-                            <h3 class="heading heading-h3 line-height-1-42 text-white">Let's Chat.</h3>
-                            <div class="bkseparator--25"></div>
-                            <p class="bk_pra text-white">We’re always down for exciting new challenges and would love to add a little soul to your brand’s next act. Let us know how we can help.</p>
-                            <div class="bkseparator--40"></div>
-                            <n-link to="/about-us-01" class="moredetails-btn yellow-color-1 btn-style-1 btn-center">
-                                <span>Contact Us</span> 
-                            </n-link>
-                            <img :src="$router.options.base+'images/content-blocks/content-image-7.png'" alt="video images">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
     </div>
 </template>
 
@@ -214,9 +192,6 @@
     }
     .gradient-2 {
         background: linear-gradient(115deg, #d91f85 0%, #0db3eb 100%);
-    }
-    .gradient-3 {
-        background: linear-gradient(45deg, #e84700 1.66%, #ffa300 100%);
     }
     .mt-6 {
         margin-top: 60px;
@@ -250,7 +225,9 @@
         width: 100%;
         height: 100%;
         border-radius: 10px;
-        padding: 10px 20px;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
     }
     .block-6 {
         height: 400px;
@@ -263,6 +240,7 @@
         text-align: center;
         border-radius: 21px;
         padding: 10px;
+        margin-top: auto;
     }
     .btn-center {
         margin: 0 auto;
@@ -281,10 +259,5 @@
     }
     .text-center {
         text-align: center;
-    }
-    .block-7 img {
-        width: 100px;
-        display: block;
-        margin: 30px auto 0;
     }
 </style>

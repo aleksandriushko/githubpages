@@ -1,33 +1,31 @@
 <template>
-    
     <div class="main-container">
 
-        <HeaderBlack />
+        <HeaderElement />
 
         <OffCanvasMobileMenu />
 
         <SearchPopup />
 
-        <HeroEssential />
+        <ServiceModernBreadcrumb />
 
-        <EffectiveSolution />
+        <ServiceModern />
 
         <WhatNext />
 
         <FooterTwo />
 
     </div>
-
 </template>
 
 <script>
     export default {
         components: {
-            HeaderBlack: () => import('@/components/custom/HeaderBlack'),
+            HeaderElement: () => import('@/components/HeaderElement'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             SearchPopup: () => import('@/components/SearchPopup'),
-            HeroEssential: () => import('@/components/custom/HeroEssential'),
-            EffectiveSolution: () => import('@/components/custom/EffectiveSolution'),
+            ServiceModernBreadcrumb: () => import('@/components/custom/ServiceModernBreadcrumb'),
+            ServiceModern: () => import('@/components/custom/ServiceModern'),
             WhatNext: () => import('@/components/custom/WhatNext'),
             FooterTwo: () => import('@/components/FooterTwo'),
         },
@@ -38,7 +36,7 @@
 
         head() {
             return {
-                title: 'Brook || Home Start Up'
+                title: 'Brook || Service Modern'
             }
         },
     };
