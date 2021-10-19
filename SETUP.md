@@ -65,7 +65,7 @@ run command:
 ``` bash
 $ npm run generate
 ```
-update gh-pages in GitHub
+push new static files on GitHub
 ``` bash
 git push origin `git subtree split --prefix dist master`:gh-pages --force
 git subtree push --prefix dist origin gh-pages
