@@ -87,6 +87,6 @@ export default {
 
     target: 'static',
     router: {
-        base: '/demo-brook-vue-theme'
+        base: '/'
     }
 }
