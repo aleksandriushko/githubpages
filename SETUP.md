@@ -42,6 +42,7 @@ then need to activate the gh-pages branch on the github
 and click save
 
 ## add content for Home, About Us, Services, Portfolio, Contact
+### create files and upload images:
 create pages:
 /pages/about-us.vue
 /pages/contact-us.vue
@@ -59,15 +60,29 @@ create components:
 /components/custom/WhatNext.vue
 upload images in /static/images
 
-create commit for demo-stratup branch
+### create commit for demo-stratup branch and push on github:
+``` bash
+git add .
+git commit -m "add content: home, about, services, portfolio, contact"
+git push orign
+```
+
+### generate static files and push on github pages:
 switch branch on gh-pages
+change root path in nuxt.config.js
+router.base: '/' to router.base: '/demo-brook-vue-theme'
+
 run command: 
 ``` bash
-$ npm run generate
+npm run generate
 ```
+
+add commit 
+``` bash
+git add dist && git commit -m "add content: home, about, services, portfolio, contact"
+```
+
 push new static files on GitHub
 ``` bash
-git push origin `git subtree split --prefix dist master`:gh-pages --force
-git subtree push --prefix dist origin gh-pages
+git push origin `git subtree split --prefix dist gh-pages`:gh-pages --force
 ```
-select gh-pages branch on GitHub Pages
