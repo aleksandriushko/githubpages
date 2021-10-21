@@ -16,12 +16,19 @@ Tabs Area
 }
 
 .tabs {
-    border: 2px solid #fafafa;
     padding: 30px;
 }
 
 .nav-pills .nav-link {
     color: $heading-color;
+}
+body.template-color-5 .nav-pills .nav-link.active,
+body.template-color-5 .nav-pills .show > .nav-link {
+    background-color: #F8A440;
+}
+body .card-header .card-header-pills {
+    margin: 0 auto;
+    width: 270px;
 }
 
 .tab-content>.tab-pane {

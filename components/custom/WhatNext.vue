@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="gradient-3 brook-video-area pb_md--80 pb_sm--60 bg-as-text smile text-center block-7">
+        <div :class="{'smile-bg-color': bgColor === '#f2f2f2'}" class="gradient-3 brook-video-area pb_md--80 pb_sm--60 bg-as-text smile text-center block-7">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 mt_md--40 mt_sm--40">
@@ -21,6 +21,12 @@
         </div>
     </div>
 </template>
+
+<script>
+    export default {
+        props: ["bgColor"]
+    }
+</script>
 
 <style lang="scss" scoped>
     .gradient-3 {
@@ -54,6 +60,9 @@
         min-height: 100px;
         border-radius: 0 0 95% 95% / 90%;
         min-height: 200px;
+    }
+    .smile-bg-color:before {
+        background: #f2f2f2;
     }
     .text-center {
         text-align: center;

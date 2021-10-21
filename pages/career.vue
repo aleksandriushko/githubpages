@@ -39,7 +39,7 @@
 
     export default {
         components: {
-            HeaderAbout: () => import('@/components/HeaderAbout'),
+            HeaderAbout: () => import('@/components/custom/HeaderAbout'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             SearchPopup: () => import('@/components/SearchPopup'),
             CareerItem: () => import('@/components/CareerItem'),

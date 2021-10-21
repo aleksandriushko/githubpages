@@ -9,7 +9,14 @@
 
         <ServiceModernBreadcrumb />
 
-        <ServiceModern />
+        <b-tabs pills card>
+            <b-tab title="What We Do" active>
+                <ServiceModern />
+            </b-tab>
+            <b-tab title="How We Do It">
+                <ServiceModern2 />
+            </b-tab>
+        </b-tabs>
 
         <WhatNext />
 
@@ -21,11 +28,12 @@
 <script>
     export default {
         components: {
-            HeaderElement: () => import('@/components/HeaderElement'),
+            HeaderElement: () => import('@/components/custom/HeaderElement'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             SearchPopup: () => import('@/components/SearchPopup'),
             ServiceModernBreadcrumb: () => import('@/components/custom/ServiceModernBreadcrumb'),
             ServiceModern: () => import('@/components/custom/ServiceModern'),
+            ServiceModern2: () => import('@/components/custom/ServiceModern2'),
             WhatNext: () => import('@/components/custom/WhatNext'),
             FooterTwo: () => import('@/components/FooterTwo'),
         },

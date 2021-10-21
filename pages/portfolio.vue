@@ -38,7 +38,7 @@
 <script>
     export default {
         components: {
-            HeaderBlack: () => import('@/components/HeaderBlack'),
+            HeaderBlack: () => import('@/components/custom/HeaderBlack'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             SearchPopup: () => import('@/components/SearchPopup'),
             PortfolioItemCaptionBottom: () => import('@/components/PortfolioItemCaptionBottom'),
@@ -108,6 +108,83 @@
                         "image": this.$router.options.base+"images/our-work/our-work-9.png",
                         "heading": "VR Virtual Restaraunt Experience",
                         "category": "AR / VR",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 10,
+                        "image": this.$router.options.base+"images/our-work/our-work-10.jpeg",
+                        "heading": "Design System Management",
+                        "category": "Design System Management",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 11,
+                        "image": this.$router.options.base+"images/our-work/our-work-11.png",
+                        "heading": "Brand Strategy and Implementation",
+                        "category": "Brand",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 12,
+                        "image": this.$router.options.base+"images/our-work/our-work-12.webp",
+                        "heading": "Site Design & Social Foundation",
+                        "category": "Communications",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 13,
+                        "image": this.$router.options.base+"images/our-work/our-work-13.png",
+                        "heading": "New Branding",
+                        "category": "Brand",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 14,
+                        "image": this.$router.options.base+"images/our-work/our-work-14.jpeg",
+                        "heading": "A New Name and a New Look",
+                        "category": "Brand",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 15,
+                        "image": this.$router.options.base+"images/our-work/our-work-15.jpeg",
+                        "heading": "Brand Strategy and Implementation",
+                        "category": "Brand",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 16,
+                        "image": this.$router.options.base+"images/our-work/our-work-16.jpeg",
+                        "heading": "Banking on a Personalized Experience",
+                        "category": "Interactive",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 17,
+                        "image": this.$router.options.base+"images/our-work/our-work-17.jpeg",
+                        "heading": "Rebranding with a Fresh New Look",
+                        "category": "Brand",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 18,
+                        "image": this.$router.options.base+"images/our-work/our-work-18.jpeg",
+                        "heading": "Back to Nature Site Redesign",
+                        "category": "Interactive",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 19,
+                        "image": this.$router.options.base+"images/our-work/our-work-19.png",
+                        "heading": "Branding & Communications",
+                        "category": "Brand",
+                        "filterClass": "digital"
+                    },
+                    {
+                        "id": 20,
+                        "image": this.$router.options.base+"images/our-work/our-work-20.jpeg",
+                        "heading": "Always Climbing Campaign",
+                        "category": "Communications",
                         "filterClass": "digital"
                     }
                 ]
